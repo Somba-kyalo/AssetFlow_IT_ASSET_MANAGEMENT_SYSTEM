@@ -1,0 +1,28 @@
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    background:#ffffff;
+    font-weight:600;
+}
+
+.form-control,
+.form-select{
+    border-radius:8px;
+    padding:10px;
+}
+
+.table th,
+.table td{
+    vertical-align:middle;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.bi-tags{
+    color:#6c757d;
+}

@@ -1,0 +1,56 @@
+/* ===========================
+   AssetFlow Base Styles
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #212529;
+    min-height: 100vh;
+}
+
+main {
+    min-height: calc(100vh - 120px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.table {
+    background: #ffffff;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.page-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.05);
+}
+
+footer {
+    margin-top: auto;
+}

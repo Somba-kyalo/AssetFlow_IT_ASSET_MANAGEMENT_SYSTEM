@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Recent Activity | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/recent_activity.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-6">
+
+            <h2 class="fw-bold">Recent Activity</h2>
+
+            <p class="text-muted">
+                View the latest actions performed within the system.
+            </p>
+
+        </div>
+
+        <div class="col-md-6 text-end">
+
+            <button class="btn btn-primary">
+                <i class="bi bi-arrow-clockwise"></i>
+                Refresh
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">
+                Activity Log
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover align-middle">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>#</th>
+                            <th>Date & Time</th>
+                            <th>User</th>
+                            <th>Module</th>
+                            <th>Activity</th>
+                            <th>Status</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td colspan="6" class="text-center text-muted py-5">
+
+                                <i class="bi bi-clock-history fs-1 d-block mb-3"></i>
+
+                                No recent activities found.
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

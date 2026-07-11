@@ -1,0 +1,79 @@
+/* ===========================
+   500 ERROR PAGE
+=========================== */
+
+.error-page{
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.error-card{
+    background:#ffffff;
+    max-width:700px;
+    width:100%;
+    text-align:center;
+    padding:50px 40px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.10);
+}
+
+.error-icon{
+    font-size:70px;
+    color:#ffc107;
+    margin-bottom:20px;
+}
+
+.error-code{
+    font-size:110px;
+    font-weight:700;
+    color:#dc3545;
+    margin-bottom:10px;
+}
+
+.error-title{
+    font-size:32px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.error-text{
+    color:#6c757d;
+    font-size:17px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.error-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.error-buttons .btn{
+    padding:10px 25px;
+    border-radius:8px;
+}
+
+@media(max-width:768px){
+
+    .error-card{
+        padding:35px 20px;
+    }
+
+    .error-code{
+        font-size:80px;
+    }
+
+    .error-title{
+        font-size:26px;
+    }
+
+    .error-text{
+        font-size:15px;
+    }
+
+}

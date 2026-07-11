@@ -1,0 +1,71 @@
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar{
+    background:#0f172a;
+    height:70px;
+    z-index:1050;
+}
+
+.navbar-brand{
+    color:#ffffff;
+    font-size:1.4rem;
+    font-weight:700;
+}
+
+.navbar-brand:hover{
+    color:#ffffff;
+}
+
+.search-form{
+    width:420px;
+}
+
+.search-form input{
+    border-radius:30px;
+}
+
+.search-form button{
+    border-radius:30px;
+}
+
+.nav-link{
+    color:#ffffff !important;
+}
+
+.dropdown-menu{
+    border:none;
+    border-radius:10px;
+}
+
+.profile-image{
+    width:38px;
+    height:38px;
+    object-fit:cover;
+}
+
+.navbar-space{
+    height:70px;
+}
+
+.badge{
+    font-size:.65rem;
+}
+
+@media (max-width:992px){
+
+    .search-form{
+        width:100%;
+        margin:15px 0;
+    }
+
+    .navbar{
+        height:auto;
+    }
+
+    .navbar-space{
+        height:80px;
+    }
+
+}

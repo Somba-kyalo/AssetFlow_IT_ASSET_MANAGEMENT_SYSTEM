@@ -1,0 +1,25 @@
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    background:#fff;
+    font-weight:600;
+}
+
+.table th{
+    white-space:nowrap;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.bi-clock-history{
+    color:#6c757d;
+}

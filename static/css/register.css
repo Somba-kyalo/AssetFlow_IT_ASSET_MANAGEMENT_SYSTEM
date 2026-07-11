@@ -1,0 +1,30 @@
+.register-container{
+    min-height:85vh;
+}
+
+.register-icon{
+    font-size:70px;
+    color:#0d6efd;
+}
+
+.card{
+    border-radius:15px;
+}
+
+.form-control{
+    padding:12px;
+    border-radius:8px;
+}
+
+.btn{
+    padding:12px;
+    border-radius:8px;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}

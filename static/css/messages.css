@@ -1,0 +1,58 @@
+/* ==========================
+   DJANGO MESSAGES
+========================== */
+
+.messages-container{
+    margin-bottom:25px;
+}
+
+.alert{
+    border:none;
+    border-radius:10px;
+    padding:15px 20px;
+    font-size:15px;
+    font-weight:500;
+    box-shadow:0 3px 8px rgba(0,0,0,.08);
+}
+
+.alert i{
+    font-size:18px;
+}
+
+.alert-success{
+    background:#d1e7dd;
+    color:#0f5132;
+}
+
+.alert-danger{
+    background:#f8d7da;
+    color:#842029;
+}
+
+.alert-warning{
+    background:#fff3cd;
+    color:#664d03;
+}
+
+.alert-info{
+    background:#cff4fc;
+    color:#055160;
+}
+
+.alert-secondary{
+    background:#e2e3e5;
+    color:#41464b;
+}
+
+.btn-close{
+    font-size:.8rem;
+}
+
+@media(max-width:768px){
+
+    .alert{
+        font-size:14px;
+        padding:12px 15px;
+    }
+
+}

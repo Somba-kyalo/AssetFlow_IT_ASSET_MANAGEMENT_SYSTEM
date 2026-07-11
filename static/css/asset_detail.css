@@ -1,0 +1,35 @@
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    background:#ffffff;
+    font-weight:600;
+}
+
+.img-fluid{
+    max-height:250px;
+    object-fit:contain;
+}
+
+.btn{
+    border-radius:8px;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+
+.badge{
+    font-size:0.9rem;
+    padding:8px 12px;
+}
+
+strong{
+    display:block;
+    margin-bottom:4px;
+}
+
+p{
+    margin-bottom:0;
+    color:#6c757d;
+}

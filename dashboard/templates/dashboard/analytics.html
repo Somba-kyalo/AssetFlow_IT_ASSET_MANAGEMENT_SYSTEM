@@ -1,0 +1,194 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Analytics | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/analytics.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-12">
+
+            <h2 class="fw-bold">System Analytics</h2>
+
+            <p class="text-muted">
+                Monitor asset utilization and organizational performance.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="card shadow-sm analytics-card">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-laptop analytics-icon text-primary"></i>
+
+                    <h3>{{ total_assets|default:"0" }}</h3>
+
+                    <p class="text-muted mb-0">Total Assets</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="card shadow-sm analytics-card">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-check-circle analytics-icon text-success"></i>
+
+                    <h3>{{ assigned_assets|default:"0" }}</h3>
+
+                    <p class="text-muted mb-0">Assigned Assets</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="card shadow-sm analytics-card">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-tools analytics-icon text-warning"></i>
+
+                    <h3>{{ maintenance_assets|default:"0" }}</h3>
+
+                    <p class="text-muted mb-0">Under Maintenance</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="card shadow-sm analytics-card">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-x-circle analytics-icon text-danger"></i>
+
+                    <h3>{{ retired_assets|default:"0" }}</h3>
+
+                    <p class="text-muted mb-0">Retired Assets</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-8 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Asset Distribution</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="assetDistributionChart" height="120"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Asset Status</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="assetStatusChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Monthly Asset Registration</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="monthlyAssetsChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Maintenance Trends</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="maintenanceChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

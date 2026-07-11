@@ -1,0 +1,118 @@
+{% load static %}
+
+<aside class="sidebar">
+
+    <div class="sidebar-header">
+        <h5>Navigation</h5>
+    </div>
+
+    <ul class="nav flex-column">
+
+        <li class="nav-item">
+            <a href="{% url 'dashboard' %}" class="nav-link">
+                <i class="bi bi-speedometer2"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+
+        <li class="sidebar-title">Asset Management</li>
+
+        <li class="nav-item">
+            <a href="{% url 'assets' %}" class="nav-link">
+                <i class="bi bi-laptop"></i>
+                <span>Assets</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="{% url 'add_asset' %}" class="nav-link">
+                <i class="bi bi-plus-circle"></i>
+                <span>Add Asset</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="{% url 'asset_categories' %}" class="nav-link">
+                <i class="bi bi-tags"></i>
+                <span>Categories</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="{% url 'asset_assignment' %}" class="nav-link">
+                <i class="bi bi-arrow-left-right"></i>
+                <span>Asset Assignment</span>
+            </a>
+        </li>
+
+        <li class="sidebar-title">Employees</li>
+
+        <li class="nav-item">
+            <a href="{% url 'employees' %}" class="nav-link">
+                <i class="bi bi-people"></i>
+                <span>Employees</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="{% url 'departments' %}" class="nav-link">
+                <i class="bi bi-building"></i>
+                <span>Departments</span>
+            </a>
+        </li>
+
+        <li class="sidebar-title">Maintenance</li>
+
+        <li class="nav-item">
+            <a href="{% url 'maintenance' %}" class="nav-link">
+                <i class="bi bi-tools"></i>
+                <span>Maintenance</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="{% url 'report_issue' %}" class="nav-link">
+                <i class="bi bi-exclamation-circle"></i>
+                <span>Report Issue</span>
+            </a>
+        </li>
+
+        <li class="sidebar-title">Suppliers</li>
+
+        <li class="nav-item">
+            <a href="{% url 'suppliers' %}" class="nav-link">
+                <i class="bi bi-truck"></i>
+                <span>Suppliers</span>
+            </a>
+        </li>
+
+        <li class="sidebar-title">Reports</li>
+
+        <li class="nav-item">
+            <a href="{% url 'reports' %}" class="nav-link">
+                <i class="bi bi-file-earmark-bar-graph"></i>
+                <span>Reports</span>
+            </a>
+        </li>
+
+        <li class="sidebar-title">Notifications</li>
+
+        <li class="nav-item">
+            <a href="{% url 'notifications' %}" class="nav-link">
+                <i class="bi bi-bell"></i>
+                <span>Notifications</span>
+            </a>
+        </li>
+
+        <li class="sidebar-title">Administration</li>
+
+        <li class="nav-item">
+            <a href="{% url 'settings' %}" class="nav-link">
+                <i class="bi bi-gear"></i>
+                <span>Settings</span>
+            </a>
+        </li>
+
+    </ul>
+
+</aside>

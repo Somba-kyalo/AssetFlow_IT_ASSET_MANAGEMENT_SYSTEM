@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AssetFlow - IT Asset Management System">
+    <meta name="keywords" content="Asset Management, IT Assets, Django">
+    <meta name="author" content="Samuel Musomba Kyalo">
+
+    <title>{% block title %}AssetFlow{% endblock %}</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    {% include 'includes/navbar.html' %}
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Sidebar -->
+            <div class="col-lg-2 col-md-3 p-0">
+                {% include 'includes/sidebar.html' %}
+            </div>
+
+            <!-- Main Content -->
+            <main class="col-lg-10 col-md-9 py-4 px-4">
+
+                <!-- Breadcrumbs -->
+                {% include 'includes/breadcrumbs.html' %}
+
+                <!-- Django Messages -->
+                {% include 'includes/messages.html' %}
+
+                <!-- Page Content -->
+                {% block content %}
+                {% endblock %}
+
+            </main>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    {% include 'includes/footer.html' %}
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="{% static 'js/main.js' %}"></script>
+
+    {% block extra_js %}{% endblock %}
+
+</body>
+
+</html>

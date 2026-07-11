@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Home | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <!-- Welcome Section -->
+    <div class="hero-section">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-8">
+
+                <h1 class="hero-title">
+                    Welcome, {{ request.user.first_name|default:request.user.username }}
+                </h1>
+
+                <p class="hero-text">
+                    Manage your organization's IT assets efficiently from one centralized platform.
+                </p>
+
+                <a href="{% url 'dashboard' %}" class="btn btn-primary btn-lg">
+                    <i class="bi bi-speedometer2"></i>
+                    Go to Dashboard
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 text-center">
+
+                <i class="bi bi-pc-display hero-icon"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Quick Access -->
+    <div class="row mt-5">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="quick-card">
+
+                <i class="bi bi-laptop"></i>
+
+                <h5>Assets</h5>
+
+                <p>Manage all IT assets.</p>
+
+                <a href="{% url 'assets' %}" class="btn btn-outline-primary">
+                    Open
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="quick-card">
+
+                <i class="bi bi-people-fill"></i>
+
+                <h5>Employees</h5>
+
+                <p>Manage employee records.</p>
+
+                <a href="{% url 'employees' %}" class="btn btn-outline-success">
+                    Open
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="quick-card">
+
+                <i class="bi bi-tools"></i>
+
+                <h5>Maintenance</h5>
+
+                <p>Track repairs and servicing.</p>
+
+                <a href="{% url 'maintenance' %}" class="btn btn-outline-warning">
+                    Open
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="quick-card">
+
+                <i class="bi bi-file-earmark-bar-graph"></i>
+
+                <h5>Reports</h5>
+
+                <p>Generate system reports.</p>
+
+                <a href="{% url 'reports' %}" class="btn btn-outline-danger">
+                    Open
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

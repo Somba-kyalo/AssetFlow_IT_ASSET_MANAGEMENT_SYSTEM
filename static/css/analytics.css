@@ -1,0 +1,29 @@
+.analytics-card{
+    border:none;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.analytics-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.analytics-icon{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    background:#fff;
+    font-weight:600;
+}
+
+canvas{
+    width:100% !important;
+}

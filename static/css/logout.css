@@ -1,0 +1,17 @@
+.logout-container{
+    min-height:85vh;
+}
+
+.logout-icon{
+    font-size:80px;
+    color:#dc3545;
+}
+
+.card{
+    border-radius:15px;
+}
+
+.btn{
+    padding:12px;
+    border-radius:8px;
+}

@@ -1,0 +1,287 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Statistics | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/statistics.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-12">
+
+            <h2 class="fw-bold">System Statistics</h2>
+
+            <p class="text-muted">
+                Monitor key performance indicators and system statistics.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-3 col-md-6 mb-4">
+
+            <div class="card statistics-card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <i class="bi bi-laptop statistics-icon text-primary"></i>
+
+                    <h2>{{ total_assets|default:"0" }}</h2>
+
+                    <p class="text-muted mb-0">Total Assets</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+
+            <div class="card statistics-card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <i class="bi bi-people statistics-icon text-success"></i>
+
+                    <h2>{{ total_employees|default:"0" }}</h2>
+
+                    <p class="text-muted mb-0">Employees</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+
+            <div class="card statistics-card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <i class="bi bi-building statistics-icon text-warning"></i>
+
+                    <h2>{{ total_departments|default:"0" }}</h2>
+
+                    <p class="text-muted mb-0">Departments</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+
+            <div class="card statistics-card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <i class="bi bi-truck statistics-icon text-danger"></i>
+
+                    <h2>{{ total_suppliers|default:"0" }}</h2>
+
+                    <p class="text-muted mb-0">Suppliers</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Assets by Category</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="categoryChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Assets by Department</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="departmentChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Monthly Maintenance</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="maintenanceChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Asset Status</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="statusChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Summary Statistics</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-striped align-middle">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Metric</th>
+                            <th>Value</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Total Assets</td>
+
+                            <td>{{ total_assets|default:"0" }}</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Assigned Assets</td>
+
+                            <td>{{ assigned_assets|default:"0" }}</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Available Assets</td>
+
+                            <td>{{ available_assets|default:"0" }}</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Assets Under Maintenance</td>
+
+                            <td>{{ maintenance_assets|default:"0" }}</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Total Employees</td>
+
+                            <td>{{ total_employees|default:"0" }}</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Total Departments</td>
+
+                            <td>{{ total_departments|default:"0" }}</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Total Suppliers</td>
+
+                            <td>{{ total_suppliers|default:"0" }}</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

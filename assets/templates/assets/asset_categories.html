@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Asset Categories | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/asset_categories.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-6">
+
+            <h2 class="fw-bold">Asset Categories</h2>
+
+            <p class="text-muted">
+                Manage categories used to organize IT assets.
+            </p>
+
+        </div>
+
+        <div class="col-md-6 text-end">
+
+            <a href="{% url 'add_category' %}" class="btn btn-primary">
+
+                <i class="bi bi-plus-circle"></i>
+
+                Add Category
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <input type="text" class="form-control" placeholder="Search category...">
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <select class="form-select">
+
+                        <option>All Status</option>
+                        <option>Active</option>
+                        <option>Inactive</option>
+
+                    </select>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <button class="btn btn-success w-100">
+
+                        <i class="bi bi-funnel"></i>
+
+                        Filter
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover align-middle">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>#</th>
+                            <th>Category Code</th>
+                            <th>Category Name</th>
+                            <th>Parent Category</th>
+                            <th>Total Assets</th>
+                            <th>Status</th>
+                            <th>Created On</th>
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td colspan="8" class="text-center text-muted py-5">
+
+                                <i class="bi bi-tags fs-1 d-block mb-3"></i>
+
+                                No asset categories available.
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
