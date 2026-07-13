@@ -1,0 +1,138 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Delete Employee | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/delete_employee.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-7">
+
+            <div class="card shadow-sm border-danger">
+
+                <div class="card-header bg-danger text-white">
+
+                    <h4 class="mb-0">
+
+                        <i class="bi bi-trash"></i>
+
+                        Delete Employee
+
+                    </h4>
+
+                </div>
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-exclamation-triangle-fill text-danger display-1 mb-3"></i>
+
+                    <h3>Are you sure?</h3>
+
+                    <p class="text-muted">
+
+                        You are about to permanently delete this employee.
+
+                    </p>
+
+                    <hr>
+
+                    <div class="row text-start">
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Employee ID</strong>
+
+                            <p>{{ employee.employee_id }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Full Name</strong>
+
+                            <p>{{ employee.full_name }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Department</strong>
+
+                            <p>{{ employee.department }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Position</strong>
+
+                            <p>{{ employee.position }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Email</strong>
+
+                            <p>{{ employee.email }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Status</strong>
+
+                            <p>{{ employee.status }}</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="alert alert-warning mt-3">
+
+                        <i class="bi bi-exclamation-circle"></i>
+
+                        Deleting this employee will remove all associated records from the system. This action cannot be undone.
+
+                    </div>
+
+                    <form method="POST">
+
+                        {% csrf_token %}
+
+                        <a href="{% url 'employees' %}" class="btn btn-secondary">
+
+                            <i class="bi bi-arrow-left"></i>
+
+                            Cancel
+
+                        </a>
+
+                        <button type="submit" class="btn btn-danger">
+
+                            <i class="bi bi-trash"></i>
+
+                            Delete Employee
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

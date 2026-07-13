@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Edit Maintenance | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/edit_maintenance.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Edit Maintenance Record</h2>
+
+            <p class="text-muted">
+                Update maintenance request information.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'maintenance' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Maintenance Details</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Asset</label>
+
+                        <select name="asset" class="form-select">
+
+                            <option selected>{{ maintenance.asset }}</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Reported By</label>
+
+                        <select name="employee" class="form-select">
+
+                            <option selected>{{ maintenance.reported_by }}</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Priority</label>
+
+                        <select name="priority" class="form-select">
+
+                            <option {% if maintenance.priority == "Low" %}selected{% endif %}>Low</option>
+
+                            <option {% if maintenance.priority == "Medium" %}selected{% endif %}>Medium</option>
+
+                            <option {% if maintenance.priority == "High" %}selected{% endif %}>High</option>
+
+                            <option {% if maintenance.priority == "Critical" %}selected{% endif %}>Critical</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Status</label>
+
+                        <select name="status" class="form-select">
+
+                            <option {% if maintenance.status == "Pending" %}selected{% endif %}>Pending</option>
+
+                            <option {% if maintenance.status == "In Progress" %}selected{% endif %}>In Progress</option>
+
+                            <option {% if maintenance.status == "Completed" %}selected{% endif %}>Completed</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+
+                        <label class="form-label">Issue Description</label>
+
+                        <textarea name="issue" rows="4" class="form-control">{{ maintenance.issue }}</textarea>
+
+                    </div>
+
+                </div>
+
+                <div class="text-end">
+
+                    <button type="reset" class="btn btn-warning">
+
+                        <i class="bi bi-arrow-clockwise"></i>
+
+                        Reset
+
+                    </button>
+
+                    <button type="submit" class="btn btn-primary">
+
+                        <i class="bi bi-save"></i>
+
+                        Update Maintenance
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

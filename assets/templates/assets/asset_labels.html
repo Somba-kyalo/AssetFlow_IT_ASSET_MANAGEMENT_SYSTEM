@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Asset Labels | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/asset_labels.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-6">
+
+            <h2 class="fw-bold">Asset Labels</h2>
+
+            <p class="text-muted">
+                Generate and print barcode or QR code labels for IT assets.
+            </p>
+
+        </div>
+
+        <div class="col-md-6 text-end">
+
+            <button class="btn btn-success">
+
+                <i class="bi bi-printer"></i>
+
+                Print Labels
+
+            </button>
+
+            <button class="btn btn-primary">
+
+                <i class="bi bi-download"></i>
+
+                Export PDF
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Filter Labels</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <form>
+
+                <div class="row">
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Asset Category</label>
+
+                        <select class="form-select">
+
+                            <option>All Categories</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Department</label>
+
+                        <select class="form-select">
+
+                            <option>All Departments</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Status</label>
+
+                        <select class="form-select">
+
+                            <option>All</option>
+                            <option>Available</option>
+                            <option>Assigned</option>
+                            <option>Maintenance</option>
+                            <option>Retired</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+
+            <div class="card label-card">
+
+                <div class="card-body text-center">
+
+                    <h6>Asset Name</h6>
+
+                    <p class="mb-1">AF-0001</p>
+
+                    <img src="{% static 'images/qrcode.png' %}" class="img-fluid qr-image" alt="QR Code">
+
+                    <small class="text-muted">
+                        Serial: SN-000001
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-12 text-center text-muted py-5">
+
+            <i class="bi bi-upc-scan fs-1 d-block mb-3"></i>
+
+            Generated asset labels will appear here.
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

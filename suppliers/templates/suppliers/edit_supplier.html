@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Edit Supplier | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/edit_supplier.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Edit Supplier</h2>
+
+            <p class="text-muted">
+                Update supplier information.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'suppliers' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Supplier Details</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Supplier Name</label>
+
+                        <input type="text" name="name" class="form-control" value="{{ supplier.name }}">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Contact Person</label>
+
+                        <input type="text" name="contact_person" class="form-control" value="{{ supplier.contact_person }}">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Email Address</label>
+
+                        <input type="email" name="email" class="form-control" value="{{ supplier.email }}">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Phone Number</label>
+
+                        <input type="text" name="phone" class="form-control" value="{{ supplier.phone }}">
+
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+
+                        <label class="form-label">Physical Address</label>
+
+                        <textarea name="address" rows="3" class="form-control">{{ supplier.address }}</textarea>
+
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+
+                        <label class="form-label">Status</label>
+
+                        <select name="status" class="form-select">
+
+                            <option {% if supplier.status == "Active" %}selected{% endif %}>Active</option>
+
+                            <option {% if supplier.status == "Inactive" %}selected{% endif %}>Inactive</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="text-end">
+
+                    <button type="reset" class="btn btn-warning">
+
+                        <i class="bi bi-arrow-clockwise"></i>
+
+                        Reset
+
+                    </button>
+
+                    <button type="submit" class="btn btn-primary">
+
+                        <i class="bi bi-check-circle"></i>
+
+                        Update Supplier
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

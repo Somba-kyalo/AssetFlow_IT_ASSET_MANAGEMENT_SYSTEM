@@ -1,0 +1,168 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Add User | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/add_user.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Add User</h2>
+
+            <p class="text-muted">
+                Create a new user account.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'users' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">User Information</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">First Name</label>
+
+                        <input type="text" name="first_name" class="form-control" placeholder="Enter first name">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Last Name</label>
+
+                        <input type="text" name="last_name" class="form-control" placeholder="Enter last name">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Username</label>
+
+                        <input type="text" name="username" class="form-control" placeholder="Enter username">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Email Address</label>
+
+                        <input type="email" name="email" class="form-control" placeholder="Enter email">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Password</label>
+
+                        <input type="password" name="password" class="form-control" placeholder="Enter password">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Confirm Password</label>
+
+                        <input type="password" name="confirm_password" class="form-control" placeholder="Confirm password">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Role</label>
+
+                        <select name="role" class="form-select">
+
+                            <option>Select Role</option>
+
+                            <option>Administrator</option>
+
+                            <option>ICT Officer</option>
+
+                            <option>Asset Manager</option>
+
+                            <option>Department Head</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Status</label>
+
+                        <select name="status" class="form-select">
+
+                            <option>Active</option>
+
+                            <option>Inactive</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="text-end">
+
+                    <button type="reset" class="btn btn-warning">
+
+                        <i class="bi bi-arrow-clockwise"></i>
+
+                        Reset
+
+                    </button>
+
+                    <button type="submit" class="btn btn-primary">
+
+                        <i class="bi bi-person-plus-fill"></i>
+
+                        Save User
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

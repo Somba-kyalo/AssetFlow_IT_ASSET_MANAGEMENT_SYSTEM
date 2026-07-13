@@ -1,0 +1,156 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Assignment Alerts | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/assignment_alerts.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Asset Assignment Alerts</h2>
+
+            <p class="text-muted">
+                Monitor asset assignments, overdue returns, and transfer notifications.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'asset_assignment' %}" class="btn btn-primary">
+
+                <i class="bi bi-arrow-left-right"></i>
+
+                Asset Assignments
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <h5 class="mb-0">Assignment Alerts</h5>
+
+            <form method="GET" class="d-flex">
+
+                <input type="search" name="search" class="form-control me-2" placeholder="Search alerts...">
+
+                <button type="submit" class="btn btn-outline-primary">
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>#</th>
+
+                            <th>Asset</th>
+
+                            <th>Employee</th>
+
+                            <th>Department</th>
+
+                            <th>Alert</th>
+
+                            <th>Date</th>
+
+                            <th>Status</th>
+
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for alert in assignment_alerts %}
+
+                        <tr>
+
+                            <td>{{ forloop.counter }}</td>
+
+                            <td>{{ alert.asset }}</td>
+
+                            <td>{{ alert.employee }}</td>
+
+                            <td>{{ alert.department }}</td>
+
+                            <td>{{ alert.message }}</td>
+
+                            <td>{{ alert.date }}</td>
+
+                            <td>
+
+                                <span class="badge bg-warning text-dark">
+
+                                    {{ alert.status }}
+
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                <a href="{% url 'asset_detail' alert.asset.id %}" class="btn btn-sm btn-info">
+
+                                    <i class="bi bi-eye"></i>
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="8" class="text-center text-muted">
+
+                                No assignment alerts available.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

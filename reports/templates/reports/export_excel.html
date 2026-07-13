@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Export Excel | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/export_excel.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h4 class="mb-0">
+
+                        <i class="bi bi-file-earmark-excel text-success"></i>
+
+                        Export Reports to Excel
+
+                    </h4>
+
+                </div>
+
+                <div class="card-body">
+
+                    <p class="text-muted mb-4">
+
+                        Select the report you want to export in Microsoft Excel format.
+
+                    </p>
+
+                    <form method="POST">
+
+                        {% csrf_token %}
+
+                        <div class="mb-3">
+
+                            <label class="form-label">Report Type</label>
+
+                            <select name="report_type" class="form-select">
+
+                                <option value="">Choose Report</option>
+
+                                <option value="assets">Asset Report</option>
+
+                                <option value="employees">Employee Report</option>
+
+                                <option value="departments">Department Report</option>
+
+                                <option value="maintenance">Maintenance Report</option>
+
+                                <option value="suppliers">Supplier Report</option>
+
+                                <option value="warranty">Warranty Report</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label class="form-label">Export Format</label>
+
+                            <input type="text" class="form-control" value="Microsoft Excel (.xlsx)" readonly>
+
+                        </div>
+
+                        <div class="text-end">
+
+                            <a href="{% url 'reports' %}" class="btn btn-secondary">
+
+                                Cancel
+
+                            </a>
+
+                            <button type="submit" class="btn btn-success">
+
+                                <i class="bi bi-download"></i>
+
+                                Export Excel
+
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    background:#ffffff;
+    font-weight:600;
+}
+
+strong{
+    display:block;
+    margin-bottom:5px;
+    color:#212529;
+}
+
+p{
+    color:#6c757d;
+    margin-bottom:0;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.badge{
+    padding:8px 12px;
+    font-size:0.85rem;
+}

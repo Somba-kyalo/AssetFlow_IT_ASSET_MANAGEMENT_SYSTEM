@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Notification Details | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/notification_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Notification Details</h2>
+
+            <p class="text-muted">
+                View complete notification information.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'notifications' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Notification Information</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Title</strong>
+
+                    <p>{{ notification.title }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Category</strong>
+
+                    <p>{{ notification.category }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Date</strong>
+
+                    <p>{{ notification.created_at }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Status</strong>
+
+                    <p>
+
+                        {% if notification.is_read %}
+
+                        <span class="badge bg-success">Read</span>
+
+                        {% else %}
+
+                        <span class="badge bg-warning text-dark">Unread</span>
+
+                        {% endif %}
+
+                    </p>
+
+                </div>
+
+                <div class="col-md-12 mb-3">
+
+                    <strong>Message</strong>
+
+                    <p>{{ notification.message }}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

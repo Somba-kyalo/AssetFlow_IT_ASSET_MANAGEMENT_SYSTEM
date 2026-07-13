@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Edit Category | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/edit_category.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Edit Asset Category</h2>
+
+            <p class="text-muted">
+                Update the details of an existing asset category.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'asset_categories' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">
+
+                Category Information
+
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Category Name</label>
+
+                        <input type="text" name="name" class="form-control" value="{{ category.name }}" required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Category Code</label>
+
+                        <input type="text" name="code" class="form-control" value="{{ category.code }}" required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Parent Category</label>
+
+                        <select name="parent_category" class="form-select">
+
+                            <option selected>{{ category.parent_category }}</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Status</label>
+
+                        <select name="status" class="form-select">
+
+                            <option {% if category.status == "Active" %}selected{% endif %}>Active</option>
+
+                            <option {% if category.status == "Inactive" %}selected{% endif %}>Inactive</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+
+                        <label class="form-label">Description</label>
+
+                        <textarea name="description" rows="4" class="form-control">{{ category.description }}</textarea>
+
+                    </div>
+
+                </div>
+
+                <div class="text-end">
+
+                    <button type="reset" class="btn btn-warning">
+
+                        <i class="bi bi-arrow-clockwise"></i>
+
+                        Reset
+
+                    </button>
+
+                    <button type="submit" class="btn btn-primary">
+
+                        <i class="bi bi-save"></i>
+
+                        Update Category
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

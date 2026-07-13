@@ -1,92 +1,93 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Assets | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/assets.css' %}">
+{% endblock %}
 
 {% block content %}
 
 <div class="container-fluid">
 
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <div>
-            <h2 class="fw-bold">Assets</h2>
-            <p class="text-muted">Manage all company assets</p>
+    <div class="row mb-4">
+
+        <div class="col-md-6">
+
+            <h2 class="fw-bold">IT Assets</h2>
+
+            <p class="text-muted">
+                Manage and monitor all IT assets within the organization.
+            </p>
+
         </div>
 
-        <a href="{% url 'add_asset' %}" class="btn btn-primary">
-            <i class="bi bi-plus-circle"></i> Add Asset
-        </a>
+        <div class="col-md-6 text-end">
+
+            <a href="{% url 'add_asset' %}" class="btn btn-primary">
+
+                <i class="bi bi-plus-circle"></i>
+
+                Add Asset
+
+            </a>
+
+        </div>
+
     </div>
 
-
-    <!-- Search and Filters -->
     <div class="card shadow-sm mb-4">
-        <div class="card-body">
 
-            <form method="GET">
+        <div class="card-header">
 
-                <div class="row g-3">
+            <div class="row">
 
-                    <div class="col-md-5">
-                        <input 
-                        type="text" 
-                        name="search" 
-                        class="form-control"
-                        placeholder="Search asset name, tag or serial number..."
-                        value="{{ request.GET.search }}">
-                    </div>
+                <div class="col-md-4">
 
-
-                    <div class="col-md-3">
-
-                        <select name="category" class="form-select">
-
-                            <option value="">All Categories</option>
-
-                            {% for category in categories %}
-                            <option value="{{ category.id }}">
-                                {{ category.name }}
-                            </option>
-                            {% endfor %}
-
-                        </select>
-
-                    </div>
-
-
-                    <div class="col-md-2">
-
-                        <select name="status" class="form-select">
-
-                            <option value="">Status</option>
-                            <option value="Available">Available</option>
-                            <option value="Assigned">Assigned</option>
-                            <option value="Maintenance">Maintenance</option>
-                            <option value="Retired">Retired</option>
-
-                        </select>
-
-                    </div>
-
-
-                    <div class="col-md-2">
-
-                        <button class="btn btn-dark w-100">
-                            Filter
-                        </button>
-
-                    </div>
-
+                    <input type="text" class="form-control" placeholder="Search assets...">
 
                 </div>
 
-            </form>
+                <div class="col-md-3">
+
+                    <select class="form-select">
+
+                        <option>All Categories</option>
+
+                    </select>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <select class="form-select">
+
+                        <option>All Status</option>
+                        <option>Available</option>
+                        <option>Assigned</option>
+                        <option>Maintenance</option>
+                        <option>Retired</option>
+
+                    </select>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <button class="btn btn-success w-100">
+
+                        <i class="bi bi-funnel"></i>
+
+                        Filter
+
+                    </button>
+
+                </div>
+
+            </div>
 
         </div>
-    </div>
-
-
-
-    <!-- Assets Table -->
-
-    <div class="card shadow-sm">
 
         <div class="card-body">
 
@@ -94,141 +95,39 @@
 
                 <table class="table table-hover align-middle">
 
-                    <thead class="table-dark">
+                    <thead>
 
                         <tr>
 
                             <th>#</th>
+                            <th>Image</th>
                             <th>Asset Tag</th>
                             <th>Asset Name</th>
                             <th>Category</th>
-                            <th>Assigned To</th>
+                            <th>Department</th>
                             <th>Status</th>
-                            <th>Warranty</th>
+                            <th>Assigned To</th>
                             <th>Actions</th>
 
                         </tr>
 
                     </thead>
 
-
                     <tbody>
 
+                        <tr>
 
-                    {% for asset in assets %}
+                            <td colspan="9" class="text-center text-muted py-5">
 
-                    <tr>
+                                <i class="bi bi-laptop fs-1 d-block mb-3"></i>
 
-                        <td>{{ forloop.counter }}</td>
+                                No assets available.
 
+                            </td>
 
-                        <td>
-                            <strong>{{ asset.asset_tag }}</strong>
-                        </td>
-
-
-                        <td>
-                            {{ asset.name }}
-                        </td>
-
-
-                        <td>
-                            {{ asset.category }}
-                        </td>
-
-
-                        <td>
-
-                            {% if asset.assigned_to %}
-                                {{ asset.assigned_to }}
-                            {% else %}
-                                <span class="text-muted">
-                                    Not Assigned
-                                </span>
-                            {% endif %}
-
-                        </td>
-
-
-                        <td>
-
-                            {% if asset.status == "Available" %}
-
-                            <span class="badge bg-success">
-                                Available
-                            </span>
-
-                            {% elif asset.status == "Assigned" %}
-
-                            <span class="badge bg-primary">
-                                Assigned
-                            </span>
-
-                            {% elif asset.status == "Maintenance" %}
-
-                            <span class="badge bg-warning">
-                                Maintenance
-                            </span>
-
-                            {% else %}
-
-                            <span class="badge bg-secondary">
-                                {{ asset.status }}
-                            </span>
-
-                            {% endif %}
-
-                        </td>
-
-
-                        <td>
-                            {{ asset.warranty_expiry|date:"d M Y" }}
-                        </td>
-
-
-                        <td>
-
-                            <a href="{% url 'asset_detail' asset.id %}" 
-                            class="btn btn-sm btn-info">
-                                View
-                            </a>
-
-
-                            <a href="{% url 'edit_asset' asset.id %}" 
-                            class="btn btn-sm btn-warning">
-                                Edit
-                            </a>
-
-
-                            <a href="{% url 'delete_asset' asset.id %}" 
-                            class="btn btn-sm btn-danger">
-                                Delete
-                            </a>
-
-                        </td>
-
-
-                    </tr>
-
-
-                    {% empty %}
-
-                    <tr>
-
-                        <td colspan="8" class="text-center text-muted">
-
-                            No assets found
-
-                        </td>
-
-                    </tr>
-
-
-                    {% endfor %}
-
+                        </tr>
 
                     </tbody>
-
 
                 </table>
 
@@ -236,10 +135,38 @@
 
         </div>
 
+        <div class="card-footer bg-white">
+
+            <nav>
+
+                <ul class="pagination justify-content-end mb-0">
+
+                    <li class="page-item disabled">
+
+                        <a class="page-link" href="#">Previous</a>
+
+                    </li>
+
+                    <li class="page-item active">
+
+                        <a class="page-link" href="#">1</a>
+
+                    </li>
+
+                    <li class="page-item">
+
+                        <a class="page-link" href="#">Next</a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
     </div>
 
-
 </div>
-
 
 {% endblock %}

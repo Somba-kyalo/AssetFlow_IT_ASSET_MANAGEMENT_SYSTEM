@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Maintenance Details | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/maintenance_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Maintenance Details</h2>
+
+            <p class="text-muted">
+                View complete maintenance request information.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'maintenance' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Maintenance Information</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Ticket Number</strong>
+
+                    <p>{{ maintenance.ticket_number }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Asset</strong>
+
+                    <p>{{ maintenance.asset }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Reported By</strong>
+
+                    <p>{{ maintenance.reported_by }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Priority</strong>
+
+                    <p><span class="badge bg-warning text-dark">{{ maintenance.priority }}</span></p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Status</strong>
+
+                    <p><span class="badge bg-success">{{ maintenance.status }}</span></p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Reported Date</strong>
+
+                    <p>{{ maintenance.reported_date }}</p>
+
+                </div>
+
+                <div class="col-md-12 mb-3">
+
+                    <strong>Issue Description</strong>
+
+                    <p>{{ maintenance.issue }}</p>
+
+                </div>
+
+                <div class="col-md-12 mb-3">
+
+                    <strong>Technician Notes</strong>
+
+                    <p>{{ maintenance.notes }}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm mt-4">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Quick Actions</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <a href="{% url 'edit_maintenance' maintenance.id %}" class="btn btn-warning">
+
+                <i class="bi bi-pencil-square"></i>
+
+                Edit
+
+            </a>
+
+            <a href="{% url 'maintenance_history' %}" class="btn btn-info">
+
+                <i class="bi bi-clock-history"></i>
+
+                History
+
+            </a>
+
+            <a href="{% url 'maintenance_schedule' %}" class="btn btn-primary">
+
+                <i class="bi bi-calendar-event"></i>
+
+                Schedule
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

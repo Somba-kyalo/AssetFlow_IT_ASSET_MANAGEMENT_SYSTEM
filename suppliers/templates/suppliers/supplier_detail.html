@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Supplier Details | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/supplier_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Supplier Details</h2>
+
+            <p class="text-muted">
+                View complete supplier information.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'suppliers' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back to Suppliers
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Supplier Information</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="form-label fw-bold">Supplier Name</label>
+
+                    <p>{{ supplier.name }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="form-label fw-bold">Contact Person</label>
+
+                    <p>{{ supplier.contact_person }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="form-label fw-bold">Email Address</label>
+
+                    <p>{{ supplier.email }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="form-label fw-bold">Phone Number</label>
+
+                    <p>{{ supplier.phone }}</p>
+
+                </div>
+
+                <div class="col-md-12 mb-3">
+
+                    <label class="form-label fw-bold">Physical Address</label>
+
+                    <p>{{ supplier.address }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="form-label fw-bold">Status</label>
+
+                    <p>{{ supplier.status }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="form-label fw-bold">Date Added</label>
+
+                    <p>{{ supplier.created_at }}</p>
+
+                </div>
+
+            </div>
+
+            <div class="text-end mt-4">
+
+                <a href="{% url 'supplier_assets' supplier.id %}" class="btn btn-primary">
+
+                    <i class="bi bi-pc-display"></i>
+
+                    View Supplied Assets
+
+                </a>
+
+                <a href="{% url 'supplier_history' supplier.id %}" class="btn btn-info">
+
+                    <i class="bi bi-clock-history"></i>
+
+                    Supplier History
+
+                </a>
+
+                <a href="{% url 'edit_supplier' supplier.id %}" class="btn btn-warning">
+
+                    <i class="bi bi-pencil-square"></i>
+
+                    Edit Supplier
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

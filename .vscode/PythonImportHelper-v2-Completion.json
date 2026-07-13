@@ -1,0 +1,1813 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "accounts.apps",
+        "description": "accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    name = 'accounts'",
+        "detail": "accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AssetsConfig",
+        "kind": 6,
+        "importPath": "assets.apps",
+        "description": "assets.apps",
+        "peekOfCode": "class AssetsConfig(AppConfig):\n    name = 'assets'",
+        "detail": "assets.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "assets.urls",
+        "description": "assets.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"assets/\", views.assets, name=\"assets\"),\n    path(\"asset/<int:id>/\", views.asset_detail, name=\"asset_detail\"),\n    path(\"add-asset/\", views.add_asset, name=\"add_asset\"),\n    path(\"edit-asset/<int:id>/\", views.edit_asset, name=\"edit_asset\"),\n    path(\"delete-asset/<int:id>/\", views.delete_asset, name=\"delete_asset\"),\n    path(\"asset-categories/\", views.asset_categories, name=\"asset_categories\"),\n    path(\"add-category/\", views.add_category, name=\"add_category\"),\n    path(\"edit-category/<int:id>/\", views.edit_category, name=\"edit_category\"),\n    path(\"asset-assignment/\", views.asset_assignment, name=\"asset_assignment\"),",
+        "detail": "assets.urls",
+        "documentation": {}
+    },
+    {
+        "label": "assets",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def assets(request):\n    return render(request, \"assets/assets.html\")\ndef asset_detail(request):\n    return render(request, \"assets/asset_detail.html\")\ndef add_asset(request):\n    return render(request, \"assets/add_asset.html\")\ndef edit_asset(request):\n    return render(request, \"assets/edit_asset.html\")\ndef delete_asset(request):\n    return render(request, \"assets/delete_asset.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_detail",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def asset_detail(request):\n    return render(request, \"assets/asset_detail.html\")\ndef add_asset(request):\n    return render(request, \"assets/add_asset.html\")\ndef edit_asset(request):\n    return render(request, \"assets/edit_asset.html\")\ndef delete_asset(request):\n    return render(request, \"assets/delete_asset.html\")\ndef asset_categories(request):\n    return render(request, \"assets/asset_categories.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_asset",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def add_asset(request):\n    return render(request, \"assets/add_asset.html\")\ndef edit_asset(request):\n    return render(request, \"assets/edit_asset.html\")\ndef delete_asset(request):\n    return render(request, \"assets/delete_asset.html\")\ndef asset_categories(request):\n    return render(request, \"assets/asset_categories.html\")\ndef add_category(request):\n    return render(request, \"assets/add_category.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_asset",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def edit_asset(request):\n    return render(request, \"assets/edit_asset.html\")\ndef delete_asset(request):\n    return render(request, \"assets/delete_asset.html\")\ndef asset_categories(request):\n    return render(request, \"assets/asset_categories.html\")\ndef add_category(request):\n    return render(request, \"assets/add_category.html\")\ndef edit_category(request):\n    return render(request, \"assets/edit_category.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_asset",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def delete_asset(request):\n    return render(request, \"assets/delete_asset.html\")\ndef asset_categories(request):\n    return render(request, \"assets/asset_categories.html\")\ndef add_category(request):\n    return render(request, \"assets/add_category.html\")\ndef edit_category(request):\n    return render(request, \"assets/edit_category.html\")\ndef asset_assignment(request):\n    return render(request, \"assets/asset_assignment.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_categories",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def asset_categories(request):\n    return render(request, \"assets/asset_categories.html\")\ndef add_category(request):\n    return render(request, \"assets/add_category.html\")\ndef edit_category(request):\n    return render(request, \"assets/edit_category.html\")\ndef asset_assignment(request):\n    return render(request, \"assets/asset_assignment.html\")\ndef assign_asset(request):\n    return render(request, \"assets/assign_asset.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_category",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def add_category(request):\n    return render(request, \"assets/add_category.html\")\ndef edit_category(request):\n    return render(request, \"assets/edit_category.html\")\ndef asset_assignment(request):\n    return render(request, \"assets/asset_assignment.html\")\ndef assign_asset(request):\n    return render(request, \"assets/assign_asset.html\")\ndef transfer_asset(request):\n    return render(request, \"assets/transfer_asset.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_category",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def edit_category(request):\n    return render(request, \"assets/edit_category.html\")\ndef asset_assignment(request):\n    return render(request, \"assets/asset_assignment.html\")\ndef assign_asset(request):\n    return render(request, \"assets/assign_asset.html\")\ndef transfer_asset(request):\n    return render(request, \"assets/transfer_asset.html\")\ndef return_asset(request):\n    return render(request, \"assets/return_asset.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_assignment",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def asset_assignment(request):\n    return render(request, \"assets/asset_assignment.html\")\ndef assign_asset(request):\n    return render(request, \"assets/assign_asset.html\")\ndef transfer_asset(request):\n    return render(request, \"assets/transfer_asset.html\")\ndef return_asset(request):\n    return render(request, \"assets/return_asset.html\")\ndef asset_history(request):\n    return render(request, \"assets/asset_history.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "assign_asset",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def assign_asset(request):\n    return render(request, \"assets/assign_asset.html\")\ndef transfer_asset(request):\n    return render(request, \"assets/transfer_asset.html\")\ndef return_asset(request):\n    return render(request, \"assets/return_asset.html\")\ndef asset_history(request):\n    return render(request, \"assets/asset_history.html\")\ndef asset_qrcode(request):\n    return render(request, \"assets/asset_qrcode.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "transfer_asset",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def transfer_asset(request):\n    return render(request, \"assets/transfer_asset.html\")\ndef return_asset(request):\n    return render(request, \"assets/return_asset.html\")\ndef asset_history(request):\n    return render(request, \"assets/asset_history.html\")\ndef asset_qrcode(request):\n    return render(request, \"assets/asset_qrcode.html\")\ndef asset_search(request):\n    return render(request, \"assets/asset_search.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "return_asset",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def return_asset(request):\n    return render(request, \"assets/return_asset.html\")\ndef asset_history(request):\n    return render(request, \"assets/asset_history.html\")\ndef asset_qrcode(request):\n    return render(request, \"assets/asset_qrcode.html\")\ndef asset_search(request):\n    return render(request, \"assets/asset_search.html\")\ndef asset_labels(request):\n    return render(request, \"assets/asset_labels.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_history",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def asset_history(request):\n    return render(request, \"assets/asset_history.html\")\ndef asset_qrcode(request):\n    return render(request, \"assets/asset_qrcode.html\")\ndef asset_search(request):\n    return render(request, \"assets/asset_search.html\")\ndef asset_labels(request):\n    return render(request, \"assets/asset_labels.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_qrcode",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def asset_qrcode(request):\n    return render(request, \"assets/asset_qrcode.html\")\ndef asset_search(request):\n    return render(request, \"assets/asset_search.html\")\ndef asset_labels(request):\n    return render(request, \"assets/asset_labels.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_search",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def asset_search(request):\n    return render(request, \"assets/asset_search.html\")\ndef asset_labels(request):\n    return render(request, \"assets/asset_labels.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_labels",
+        "kind": 2,
+        "importPath": "assets.views",
+        "description": "assets.views",
+        "peekOfCode": "def asset_labels(request):\n    return render(request, \"assets/asset_labels.html\")",
+        "detail": "assets.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "config.asgi",
+        "description": "config.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "config.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-1@7knpd0frna8y1r93=l22v#0-pwrj%u@3z@5y$djpq#b%2m84'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-1@7knpd0frna8y1r93=l22v#0-pwrj%u@3z@5y$djpq#b%2m84'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'accounts',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'accounts',\n    'dashboard',\n    'assets',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'config.urls'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "ROOT_URLCONF = 'config.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'config.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/6.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nLOGIN_URL = \"login\"\nLOGIN_REDIRECT_URL = \"home\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nLOGIN_URL = \"login\"\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nLOGIN_URL = \"login\"\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nLOGIN_URL = \"login\"\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nLOGIN_URL = \"login\"\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'static']\nLOGIN_URL = \"login\"\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "LOGIN_URL = \"login\"\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"index\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 5,
+        "importPath": "config.urls",
+        "description": "config.urls",
+        "peekOfCode": "handler404 = \"dashboard.views.error_404\"\nhandler500 = \"dashboard.views.error_500\"\nurlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"dashboard.urls\")),\n    path(\"\", include(\"registration.urls\")),\n    path(\"\", include(\"assets.urls\")),\n    path(\"\", include(\"departments.urls\")),\n    path(\"\", include(\"employees.urls\")),\n    path(\"\", include(\"maintenance.urls\")),",
+        "detail": "config.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler500",
+        "kind": 5,
+        "importPath": "config.urls",
+        "description": "config.urls",
+        "peekOfCode": "handler500 = \"dashboard.views.error_500\"\nurlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"dashboard.urls\")),\n    path(\"\", include(\"registration.urls\")),\n    path(\"\", include(\"assets.urls\")),\n    path(\"\", include(\"departments.urls\")),\n    path(\"\", include(\"employees.urls\")),\n    path(\"\", include(\"maintenance.urls\")),\n    path(\"\", include(\"notifications.urls\")),",
+        "detail": "config.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "config.urls",
+        "description": "config.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"dashboard.urls\")),\n    path(\"\", include(\"registration.urls\")),\n    path(\"\", include(\"assets.urls\")),\n    path(\"\", include(\"departments.urls\")),\n    path(\"\", include(\"employees.urls\")),\n    path(\"\", include(\"maintenance.urls\")),\n    path(\"\", include(\"notifications.urls\")),\n    path(\"\", include(\"reports.urls\")),",
+        "detail": "config.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "config.wsgi",
+        "description": "config.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "config.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "DashboardConfig",
+        "kind": 6,
+        "importPath": "dashboard.apps",
+        "description": "dashboard.apps",
+        "peekOfCode": "class DashboardConfig(AppConfig):\n    name = 'dashboard'",
+        "detail": "dashboard.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "dashboard.urls",
+        "description": "dashboard.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"home/\", views.home, name=\"home\"),\n    path(\"dashboard/\", views.dashboard, name=\"dashboard\"),\n    path(\"dashboard/analytics/\", views.analytics, name=\"analytics\"),\n    path(\"dashboard/recent-activity/\", views.recent_activity, name=\"recent_activity\"),\n    path(\"dashboard/statistics/\", views.statistics, name=\"statistics\"),\n]",
+        "detail": "dashboard.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef home(request):\n    return render(request, \"home.html\")\ndef dashboard(request):\n    return render(request, \"dashboard/dashboard.html\")\ndef analytics(request):\n    return render(request, \"dashboard/analytics.html\")\ndef recent_activity(request):\n    return render(request, \"dashboard/recent_activity.html\")",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def home(request):\n    return render(request, \"home.html\")\ndef dashboard(request):\n    return render(request, \"dashboard/dashboard.html\")\ndef analytics(request):\n    return render(request, \"dashboard/analytics.html\")\ndef recent_activity(request):\n    return render(request, \"dashboard/recent_activity.html\")\ndef statistics(request):\n    return render(request, \"dashboard/statistics.html\")",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def dashboard(request):\n    return render(request, \"dashboard/dashboard.html\")\ndef analytics(request):\n    return render(request, \"dashboard/analytics.html\")\ndef recent_activity(request):\n    return render(request, \"dashboard/recent_activity.html\")\ndef statistics(request):\n    return render(request, \"dashboard/statistics.html\")\ndef error_404(request, exception):\n    return render(request, \"404.html\", status=404)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "analytics",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def analytics(request):\n    return render(request, \"dashboard/analytics.html\")\ndef recent_activity(request):\n    return render(request, \"dashboard/recent_activity.html\")\ndef statistics(request):\n    return render(request, \"dashboard/statistics.html\")\ndef error_404(request, exception):\n    return render(request, \"404.html\", status=404)\ndef error_500(request):\n    return render(request, \"500.html\", status=500)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "recent_activity",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def recent_activity(request):\n    return render(request, \"dashboard/recent_activity.html\")\ndef statistics(request):\n    return render(request, \"dashboard/statistics.html\")\ndef error_404(request, exception):\n    return render(request, \"404.html\", status=404)\ndef error_500(request):\n    return render(request, \"500.html\", status=500)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "statistics",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def statistics(request):\n    return render(request, \"dashboard/statistics.html\")\ndef error_404(request, exception):\n    return render(request, \"404.html\", status=404)\ndef error_500(request):\n    return render(request, \"500.html\", status=500)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "error_404",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def error_404(request, exception):\n    return render(request, \"404.html\", status=404)\ndef error_500(request):\n    return render(request, \"500.html\", status=500)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "error_500",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def error_500(request):\n    return render(request, \"500.html\", status=500)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "DepartmentsConfig",
+        "kind": 6,
+        "importPath": "departments.apps",
+        "description": "departments.apps",
+        "peekOfCode": "class DepartmentsConfig(AppConfig):\n    name = 'departments'",
+        "detail": "departments.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "departments.urls",
+        "description": "departments.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"departments/\", views.departments, name=\"departments\"),\n    path(\"department/<int:id>/\", views.department_detail, name=\"department_detail\"),\n    path(\"add-department/\", views.add_department, name=\"add_department\"),\n    path(\"edit-department/<int:id>/\", views.edit_department, name=\"edit_department\"),\n    path(\"delete-department/<int:id>/\", views.delete_department, name=\"delete_department\"),\n    path(\"department-assets/<int:id>/\", views.department_assets, name=\"department_assets\"),\n]",
+        "detail": "departments.urls",
+        "documentation": {}
+    },
+    {
+        "label": "departments",
+        "kind": 2,
+        "importPath": "departments.views",
+        "description": "departments.views",
+        "peekOfCode": "def departments(request):\n    return render(request, \"departments/departments.html\")\ndef department_detail(request, id):\n    return render(request, \"departments/department_detail.html\")\ndef add_department(request):\n    return render(request, \"departments/add_department.html\")\ndef edit_department(request, id):\n    return render(request, \"departments/edit_department.html\")\ndef delete_department(request, id):\n    return render(request, \"departments/delete_department.html\")",
+        "detail": "departments.views",
+        "documentation": {}
+    },
+    {
+        "label": "department_detail",
+        "kind": 2,
+        "importPath": "departments.views",
+        "description": "departments.views",
+        "peekOfCode": "def department_detail(request, id):\n    return render(request, \"departments/department_detail.html\")\ndef add_department(request):\n    return render(request, \"departments/add_department.html\")\ndef edit_department(request, id):\n    return render(request, \"departments/edit_department.html\")\ndef delete_department(request, id):\n    return render(request, \"departments/delete_department.html\")\ndef department_assets(request, id):\n    return render(request, \"departments/department_assets.html\")",
+        "detail": "departments.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_department",
+        "kind": 2,
+        "importPath": "departments.views",
+        "description": "departments.views",
+        "peekOfCode": "def add_department(request):\n    return render(request, \"departments/add_department.html\")\ndef edit_department(request, id):\n    return render(request, \"departments/edit_department.html\")\ndef delete_department(request, id):\n    return render(request, \"departments/delete_department.html\")\ndef department_assets(request, id):\n    return render(request, \"departments/department_assets.html\")",
+        "detail": "departments.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_department",
+        "kind": 2,
+        "importPath": "departments.views",
+        "description": "departments.views",
+        "peekOfCode": "def edit_department(request, id):\n    return render(request, \"departments/edit_department.html\")\ndef delete_department(request, id):\n    return render(request, \"departments/delete_department.html\")\ndef department_assets(request, id):\n    return render(request, \"departments/department_assets.html\")",
+        "detail": "departments.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_department",
+        "kind": 2,
+        "importPath": "departments.views",
+        "description": "departments.views",
+        "peekOfCode": "def delete_department(request, id):\n    return render(request, \"departments/delete_department.html\")\ndef department_assets(request, id):\n    return render(request, \"departments/department_assets.html\")",
+        "detail": "departments.views",
+        "documentation": {}
+    },
+    {
+        "label": "department_assets",
+        "kind": 2,
+        "importPath": "departments.views",
+        "description": "departments.views",
+        "peekOfCode": "def department_assets(request, id):\n    return render(request, \"departments/department_assets.html\")",
+        "detail": "departments.views",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeesConfig",
+        "kind": 6,
+        "importPath": "employees.apps",
+        "description": "employees.apps",
+        "peekOfCode": "class EmployeesConfig(AppConfig):\n    name = 'employees'",
+        "detail": "employees.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "employees.urls",
+        "description": "employees.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"employees/\", views.employees, name=\"employees\"),\n    path(\"employee/<int:id>/\", views.employee_detail, name=\"employee_detail\"),\n    path(\"add-employee/\", views.add_employee, name=\"add_employee\"),\n    path(\"edit-employee/<int:id>/\", views.edit_employee, name=\"edit_employee\"),\n    path(\"delete-employee/<int:id>/\", views.delete_employee, name=\"delete_employee\"),\n    path(\"employee-assets/<int:id>/\", views.employee_assets, name=\"employee_assets\"),\n    path(\"employee-profile/<int:id>/\", views.employee_profile, name=\"employee_profile\"),\n]",
+        "detail": "employees.urls",
+        "documentation": {}
+    },
+    {
+        "label": "employees",
+        "kind": 2,
+        "importPath": "employees.views",
+        "description": "employees.views",
+        "peekOfCode": "def employees(request):\n    return render(request, \"employees/employees.html\")\ndef employee_detail(request, id):\n    return render(request, \"employees/employee_detail.html\")\ndef add_employee(request):\n    return render(request, \"employees/add_employee.html\")\ndef edit_employee(request, id):\n    return render(request, \"employees/edit_employee.html\")\ndef delete_employee(request, id):\n    return render(request, \"employees/delete_employee.html\")",
+        "detail": "employees.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_detail",
+        "kind": 2,
+        "importPath": "employees.views",
+        "description": "employees.views",
+        "peekOfCode": "def employee_detail(request, id):\n    return render(request, \"employees/employee_detail.html\")\ndef add_employee(request):\n    return render(request, \"employees/add_employee.html\")\ndef edit_employee(request, id):\n    return render(request, \"employees/edit_employee.html\")\ndef delete_employee(request, id):\n    return render(request, \"employees/delete_employee.html\")\ndef employee_assets(request, id):\n    return render(request, \"employees/employee_assets.html\")",
+        "detail": "employees.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_employee",
+        "kind": 2,
+        "importPath": "employees.views",
+        "description": "employees.views",
+        "peekOfCode": "def add_employee(request):\n    return render(request, \"employees/add_employee.html\")\ndef edit_employee(request, id):\n    return render(request, \"employees/edit_employee.html\")\ndef delete_employee(request, id):\n    return render(request, \"employees/delete_employee.html\")\ndef employee_assets(request, id):\n    return render(request, \"employees/employee_assets.html\")\ndef employee_profile(request, id):\n    return render(request, \"employees/employee_profile.html\")",
+        "detail": "employees.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_employee",
+        "kind": 2,
+        "importPath": "employees.views",
+        "description": "employees.views",
+        "peekOfCode": "def edit_employee(request, id):\n    return render(request, \"employees/edit_employee.html\")\ndef delete_employee(request, id):\n    return render(request, \"employees/delete_employee.html\")\ndef employee_assets(request, id):\n    return render(request, \"employees/employee_assets.html\")\ndef employee_profile(request, id):\n    return render(request, \"employees/employee_profile.html\")",
+        "detail": "employees.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_employee",
+        "kind": 2,
+        "importPath": "employees.views",
+        "description": "employees.views",
+        "peekOfCode": "def delete_employee(request, id):\n    return render(request, \"employees/delete_employee.html\")\ndef employee_assets(request, id):\n    return render(request, \"employees/employee_assets.html\")\ndef employee_profile(request, id):\n    return render(request, \"employees/employee_profile.html\")",
+        "detail": "employees.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_assets",
+        "kind": 2,
+        "importPath": "employees.views",
+        "description": "employees.views",
+        "peekOfCode": "def employee_assets(request, id):\n    return render(request, \"employees/employee_assets.html\")\ndef employee_profile(request, id):\n    return render(request, \"employees/employee_profile.html\")",
+        "detail": "employees.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_profile",
+        "kind": 2,
+        "importPath": "employees.views",
+        "description": "employees.views",
+        "peekOfCode": "def employee_profile(request, id):\n    return render(request, \"employees/employee_profile.html\")",
+        "detail": "employees.views",
+        "documentation": {}
+    },
+    {
+        "label": "MaintenanceConfig",
+        "kind": 6,
+        "importPath": "maintenance.apps",
+        "description": "maintenance.apps",
+        "peekOfCode": "class MaintenanceConfig(AppConfig):\n    name = 'maintenance'",
+        "detail": "maintenance.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "maintenance.urls",
+        "description": "maintenance.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"maintenance/\", views.maintenance, name=\"maintenance\"),\n    path(\"maintenance-detail/<int:id>/\", views.maintenance_detail, name=\"maintenance_detail\"),\n    path(\"report-issue/\", views.report_issue, name=\"report_issue\"),\n    path(\"add-maintenance/\", views.add_maintenance, name=\"add_maintenance\"),\n    path(\"edit-maintenance/<int:id>/\", views.edit_maintenance, name=\"edit_maintenance\"),\n    path(\"maintenance-history/\", views.maintenance_history, name=\"maintenance_history\"),\n    path(\"pending-repairs/\", views.pending_repairs, name=\"pending_repairs\"),\n    path(\"completed-repairs/\", views.completed_repairs, name=\"completed_repairs\"),\n    path(\"maintenance-schedule/\", views.maintenance_schedule, name=\"maintenance_schedule\"),",
+        "detail": "maintenance.urls",
+        "documentation": {}
+    },
+    {
+        "label": "maintenance",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def maintenance(request):\n    return render(request, \"maintenance/maintenance.html\")\ndef maintenance_detail(request, id):\n    return render(request, \"maintenance/maintenance_detail.html\")\ndef report_issue(request):\n    return render(request, \"maintenance/report_issue.html\")\ndef add_maintenance(request):\n    return render(request, \"maintenance/add_maintenance.html\")\ndef edit_maintenance(request, id):\n    return render(request, \"maintenance/edit_maintenance.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "maintenance_detail",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def maintenance_detail(request, id):\n    return render(request, \"maintenance/maintenance_detail.html\")\ndef report_issue(request):\n    return render(request, \"maintenance/report_issue.html\")\ndef add_maintenance(request):\n    return render(request, \"maintenance/add_maintenance.html\")\ndef edit_maintenance(request, id):\n    return render(request, \"maintenance/edit_maintenance.html\")\ndef maintenance_history(request):\n    return render(request, \"maintenance/maintenance_history.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "report_issue",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def report_issue(request):\n    return render(request, \"maintenance/report_issue.html\")\ndef add_maintenance(request):\n    return render(request, \"maintenance/add_maintenance.html\")\ndef edit_maintenance(request, id):\n    return render(request, \"maintenance/edit_maintenance.html\")\ndef maintenance_history(request):\n    return render(request, \"maintenance/maintenance_history.html\")\ndef pending_repairs(request):\n    return render(request, \"maintenance/pending_repairs.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_maintenance",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def add_maintenance(request):\n    return render(request, \"maintenance/add_maintenance.html\")\ndef edit_maintenance(request, id):\n    return render(request, \"maintenance/edit_maintenance.html\")\ndef maintenance_history(request):\n    return render(request, \"maintenance/maintenance_history.html\")\ndef pending_repairs(request):\n    return render(request, \"maintenance/pending_repairs.html\")\ndef completed_repairs(request):\n    return render(request, \"maintenance/completed_repairs.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_maintenance",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def edit_maintenance(request, id):\n    return render(request, \"maintenance/edit_maintenance.html\")\ndef maintenance_history(request):\n    return render(request, \"maintenance/maintenance_history.html\")\ndef pending_repairs(request):\n    return render(request, \"maintenance/pending_repairs.html\")\ndef completed_repairs(request):\n    return render(request, \"maintenance/completed_repairs.html\")\ndef maintenance_schedule(request):\n    return render(request, \"maintenance/maintenance_schedule.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "maintenance_history",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def maintenance_history(request):\n    return render(request, \"maintenance/maintenance_history.html\")\ndef pending_repairs(request):\n    return render(request, \"maintenance/pending_repairs.html\")\ndef completed_repairs(request):\n    return render(request, \"maintenance/completed_repairs.html\")\ndef maintenance_schedule(request):\n    return render(request, \"maintenance/maintenance_schedule.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "pending_repairs",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def pending_repairs(request):\n    return render(request, \"maintenance/pending_repairs.html\")\ndef completed_repairs(request):\n    return render(request, \"maintenance/completed_repairs.html\")\ndef maintenance_schedule(request):\n    return render(request, \"maintenance/maintenance_schedule.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "completed_repairs",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def completed_repairs(request):\n    return render(request, \"maintenance/completed_repairs.html\")\ndef maintenance_schedule(request):\n    return render(request, \"maintenance/maintenance_schedule.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "maintenance_schedule",
+        "kind": 2,
+        "importPath": "maintenance.views",
+        "description": "maintenance.views",
+        "peekOfCode": "def maintenance_schedule(request):\n    return render(request, \"maintenance/maintenance_schedule.html\")",
+        "detail": "maintenance.views",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationsConfig",
+        "kind": 6,
+        "importPath": "notifications.apps",
+        "description": "notifications.apps",
+        "peekOfCode": "class NotificationsConfig(AppConfig):\n    name = 'notifications'",
+        "detail": "notifications.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "notifications.urls",
+        "description": "notifications.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.notifications, name=\"notifications\"),\n    path(\"notification-detail/<int:id>/\", views.notification_detail, name=\"notification_detail\"),\n    path(\"maintenance-alerts/\", views.maintenance_alerts, name=\"maintenance_alerts\"),\n    path(\"assignment-alerts/\", views.assignment_alerts, name=\"assignment_alerts\"),\n    path(\"warranty-alerts/\", views.warranty_alerts, name=\"warranty_alerts\"),\n]",
+        "detail": "notifications.urls",
+        "documentation": {}
+    },
+    {
+        "label": "notifications",
+        "kind": 2,
+        "importPath": "notifications.views",
+        "description": "notifications.views",
+        "peekOfCode": "def notifications(request):\n    return render(request, \"notifications/notifications.html\")\ndef notification_detail(request, id):\n    return render(request, \"notifications/notification_detail.html\")\ndef maintenance_alerts(request):\n    return render(request, \"notifications/maintenance_alerts.html\")\ndef assignment_alerts(request):\n    return render(request, \"notifications/assignment_alerts.html\")\ndef warranty_alerts(request):\n    return render(request, \"notifications/warranty_alerts.html\")",
+        "detail": "notifications.views",
+        "documentation": {}
+    },
+    {
+        "label": "notification_detail",
+        "kind": 2,
+        "importPath": "notifications.views",
+        "description": "notifications.views",
+        "peekOfCode": "def notification_detail(request, id):\n    return render(request, \"notifications/notification_detail.html\")\ndef maintenance_alerts(request):\n    return render(request, \"notifications/maintenance_alerts.html\")\ndef assignment_alerts(request):\n    return render(request, \"notifications/assignment_alerts.html\")\ndef warranty_alerts(request):\n    return render(request, \"notifications/warranty_alerts.html\")",
+        "detail": "notifications.views",
+        "documentation": {}
+    },
+    {
+        "label": "maintenance_alerts",
+        "kind": 2,
+        "importPath": "notifications.views",
+        "description": "notifications.views",
+        "peekOfCode": "def maintenance_alerts(request):\n    return render(request, \"notifications/maintenance_alerts.html\")\ndef assignment_alerts(request):\n    return render(request, \"notifications/assignment_alerts.html\")\ndef warranty_alerts(request):\n    return render(request, \"notifications/warranty_alerts.html\")",
+        "detail": "notifications.views",
+        "documentation": {}
+    },
+    {
+        "label": "assignment_alerts",
+        "kind": 2,
+        "importPath": "notifications.views",
+        "description": "notifications.views",
+        "peekOfCode": "def assignment_alerts(request):\n    return render(request, \"notifications/assignment_alerts.html\")\ndef warranty_alerts(request):\n    return render(request, \"notifications/warranty_alerts.html\")",
+        "detail": "notifications.views",
+        "documentation": {}
+    },
+    {
+        "label": "warranty_alerts",
+        "kind": 2,
+        "importPath": "notifications.views",
+        "description": "notifications.views",
+        "peekOfCode": "def warranty_alerts(request):\n    return render(request, \"notifications/warranty_alerts.html\")",
+        "detail": "notifications.views",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationConfig",
+        "kind": 6,
+        "importPath": "registration.apps",
+        "description": "registration.apps",
+        "peekOfCode": "class RegistrationConfig(AppConfig):\n    name = 'registration'",
+        "detail": "registration.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "registration.urls",
+        "description": "registration.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"login/\", views.login, name=\"login\"),\n    path(\"logout/\", views.logout, name=\"logout\"),\n    path(\"register/\", views.register, name=\"register\"),\n    path(\"forgot-password/\", views.forgot_password, name=\"forgot_password\"),\n    path(\"reset-password/\", views.reset_password, name=\"reset_password\"),\n    path(\"change-password/\", views.change_password, name=\"change_password\"),\n    path(\"profile/\", views.profile, name=\"profile\"),\n]",
+        "detail": "registration.urls",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "registration.views",
+        "description": "registration.views",
+        "peekOfCode": "def login(request):\n    return render(request, \"registration/login.html\")\ndef logout(request):\n    return render(request, \"registration/logout.html\")\ndef register(request):\n    return render(request, \"registration/register.html\")\ndef forgot_password(request):\n    return render(request, \"registration/forgot_password.html\")\ndef reset_password(request):\n    return render(request, \"registration/reset_password.html\")",
+        "detail": "registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "registration.views",
+        "description": "registration.views",
+        "peekOfCode": "def logout(request):\n    return render(request, \"registration/logout.html\")\ndef register(request):\n    return render(request, \"registration/register.html\")\ndef forgot_password(request):\n    return render(request, \"registration/forgot_password.html\")\ndef reset_password(request):\n    return render(request, \"registration/reset_password.html\")\ndef change_password(request):\n    return render(request, \"registration/change_password.html\")",
+        "detail": "registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "registration.views",
+        "description": "registration.views",
+        "peekOfCode": "def register(request):\n    return render(request, \"registration/register.html\")\ndef forgot_password(request):\n    return render(request, \"registration/forgot_password.html\")\ndef reset_password(request):\n    return render(request, \"registration/reset_password.html\")\ndef change_password(request):\n    return render(request, \"registration/change_password.html\")\ndef profile(request):\n    return render(request, \"registration/profile.html\")",
+        "detail": "registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "forgot_password",
+        "kind": 2,
+        "importPath": "registration.views",
+        "description": "registration.views",
+        "peekOfCode": "def forgot_password(request):\n    return render(request, \"registration/forgot_password.html\")\ndef reset_password(request):\n    return render(request, \"registration/reset_password.html\")\ndef change_password(request):\n    return render(request, \"registration/change_password.html\")\ndef profile(request):\n    return render(request, \"registration/profile.html\")",
+        "detail": "registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "reset_password",
+        "kind": 2,
+        "importPath": "registration.views",
+        "description": "registration.views",
+        "peekOfCode": "def reset_password(request):\n    return render(request, \"registration/reset_password.html\")\ndef change_password(request):\n    return render(request, \"registration/change_password.html\")\ndef profile(request):\n    return render(request, \"registration/profile.html\")",
+        "detail": "registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "registration.views",
+        "description": "registration.views",
+        "peekOfCode": "def change_password(request):\n    return render(request, \"registration/change_password.html\")\ndef profile(request):\n    return render(request, \"registration/profile.html\")",
+        "detail": "registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "registration.views",
+        "description": "registration.views",
+        "peekOfCode": "def profile(request):\n    return render(request, \"registration/profile.html\")",
+        "detail": "registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "ReportsConfig",
+        "kind": 6,
+        "importPath": "reports.apps",
+        "description": "reports.apps",
+        "peekOfCode": "class ReportsConfig(AppConfig):\n    name = 'reports'",
+        "detail": "reports.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "reports.urls",
+        "description": "reports.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.reports, name=\"reports\"),\n    path(\"asset_report/\", views.asset_report, name=\"asset_report\"),\n    path(\"department_report/\", views.department_report, name=\"department_report\"),\n    path(\"employee_report/\", views.employee_report, name=\"employee_report\"),\n    path(\"maintenance_report/\", views.maintenance_report, name=\"maintenance_report\"),\n    path(\"supplier_report/\", views.supplier_report, name=\"supplier_report\"),\n    path(\"warranty_report/\", views.warranty_report, name=\"warranty_report\"),\n    path(\"export_pdf/\", views.export_pdf, name=\"export_pdf\"),\n    path(\"export_excel/\", views.export_excel, name=\"export_excel\"),",
+        "detail": "reports.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reports",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def reports(request):\n    return render(request, \"reports/reports.html\")\ndef asset_report(request):\n    return render(request, \"reports/asset_report.html\")\ndef department_report(request):\n    return render(request, \"reports/department_report.html\")\ndef employee_report(request):\n    return render(request, \"reports/employee_report.html\")\ndef maintenance_report(request):\n    return render(request, \"reports/maintenance_report.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "asset_report",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def asset_report(request):\n    return render(request, \"reports/asset_report.html\")\ndef department_report(request):\n    return render(request, \"reports/department_report.html\")\ndef employee_report(request):\n    return render(request, \"reports/employee_report.html\")\ndef maintenance_report(request):\n    return render(request, \"reports/maintenance_report.html\")\ndef supplier_report(request):\n    return render(request, \"reports/supplier_report.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "department_report",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def department_report(request):\n    return render(request, \"reports/department_report.html\")\ndef employee_report(request):\n    return render(request, \"reports/employee_report.html\")\ndef maintenance_report(request):\n    return render(request, \"reports/maintenance_report.html\")\ndef supplier_report(request):\n    return render(request, \"reports/supplier_report.html\")\ndef warranty_report(request):\n    return render(request, \"reports/warranty_report.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_report",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def employee_report(request):\n    return render(request, \"reports/employee_report.html\")\ndef maintenance_report(request):\n    return render(request, \"reports/maintenance_report.html\")\ndef supplier_report(request):\n    return render(request, \"reports/supplier_report.html\")\ndef warranty_report(request):\n    return render(request, \"reports/warranty_report.html\")\ndef export_pdf(request):\n    return render(request, \"reports/export_pdf.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "maintenance_report",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def maintenance_report(request):\n    return render(request, \"reports/maintenance_report.html\")\ndef supplier_report(request):\n    return render(request, \"reports/supplier_report.html\")\ndef warranty_report(request):\n    return render(request, \"reports/warranty_report.html\")\ndef export_pdf(request):\n    return render(request, \"reports/export_pdf.html\")\ndef export_excel(request):\n    return render(request, \"reports/export_excel.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "supplier_report",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def supplier_report(request):\n    return render(request, \"reports/supplier_report.html\")\ndef warranty_report(request):\n    return render(request, \"reports/warranty_report.html\")\ndef export_pdf(request):\n    return render(request, \"reports/export_pdf.html\")\ndef export_excel(request):\n    return render(request, \"reports/export_excel.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "warranty_report",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def warranty_report(request):\n    return render(request, \"reports/warranty_report.html\")\ndef export_pdf(request):\n    return render(request, \"reports/export_pdf.html\")\ndef export_excel(request):\n    return render(request, \"reports/export_excel.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "export_pdf",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def export_pdf(request):\n    return render(request, \"reports/export_pdf.html\")\ndef export_excel(request):\n    return render(request, \"reports/export_excel.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "export_excel",
+        "kind": 2,
+        "importPath": "reports.views",
+        "description": "reports.views",
+        "peekOfCode": "def export_excel(request):\n    return render(request, \"reports/export_excel.html\")",
+        "detail": "reports.views",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfig",
+        "kind": 6,
+        "importPath": "settings.apps",
+        "description": "settings.apps",
+        "peekOfCode": "class SettingsConfig(AppConfig):\n    name = 'settings'",
+        "detail": "settings.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "settings.urls",
+        "description": "settings.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"settings/\", views.settings, name=\"settings\"),\n    path(\"settings/users/\", views.users, name=\"users\"),\n    path(\"settings/users/add/\", views.add_user, name=\"add_user\"),\n    path(\"settings/users/<int:id>/edit/\", views.edit_user, name=\"edit_user\"),\n    path(\"settings/roles/\", views.roles, name=\"roles\"),\n    path(\"settings/permissions/\", views.permissions, name=\"permissions\"),\n    path(\"settings/system_logs/\", views.system_logs, name=\"system_logs\"),\n    path(\"settings/backup_restore/\", views.backup_restore, name=\"backup_restore\"),\n]",
+        "detail": "settings.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def settings(request):\n    return render(request, \"settings/settings.html\")\ndef users(request):\n    return render(request, \"settings/users.html\")\ndef add_user(request):\n    return render(request, \"settings/add_user.html\")\ndef edit_user(request, id):\n    return render(request, \"settings/edit_user.html\")\ndef roles(request):\n    return render(request, \"settings/roles.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def users(request):\n    return render(request, \"settings/users.html\")\ndef add_user(request):\n    return render(request, \"settings/add_user.html\")\ndef edit_user(request, id):\n    return render(request, \"settings/edit_user.html\")\ndef roles(request):\n    return render(request, \"settings/roles.html\")\ndef permissions(request):\n    return render(request, \"settings/permissions.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def add_user(request):\n    return render(request, \"settings/add_user.html\")\ndef edit_user(request, id):\n    return render(request, \"settings/edit_user.html\")\ndef roles(request):\n    return render(request, \"settings/roles.html\")\ndef permissions(request):\n    return render(request, \"settings/permissions.html\")\ndef system_logs(request):\n    return render(request, \"settings/system_logs.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_user",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def edit_user(request, id):\n    return render(request, \"settings/edit_user.html\")\ndef roles(request):\n    return render(request, \"settings/roles.html\")\ndef permissions(request):\n    return render(request, \"settings/permissions.html\")\ndef system_logs(request):\n    return render(request, \"settings/system_logs.html\")\ndef backup_restore(request):\n    return render(request, \"settings/backup_restore.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "roles",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def roles(request):\n    return render(request, \"settings/roles.html\")\ndef permissions(request):\n    return render(request, \"settings/permissions.html\")\ndef system_logs(request):\n    return render(request, \"settings/system_logs.html\")\ndef backup_restore(request):\n    return render(request, \"settings/backup_restore.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def permissions(request):\n    return render(request, \"settings/permissions.html\")\ndef system_logs(request):\n    return render(request, \"settings/system_logs.html\")\ndef backup_restore(request):\n    return render(request, \"settings/backup_restore.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "system_logs",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def system_logs(request):\n    return render(request, \"settings/system_logs.html\")\ndef backup_restore(request):\n    return render(request, \"settings/backup_restore.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "backup_restore",
+        "kind": 2,
+        "importPath": "settings.views",
+        "description": "settings.views",
+        "peekOfCode": "def backup_restore(request):\n    return render(request, \"settings/backup_restore.html\")",
+        "detail": "settings.views",
+        "documentation": {}
+    },
+    {
+        "label": "SuppliersConfig",
+        "kind": 6,
+        "importPath": "suppliers.apps",
+        "description": "suppliers.apps",
+        "peekOfCode": "class SuppliersConfig(AppConfig):\n    name = 'suppliers'",
+        "detail": "suppliers.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "suppliers.urls",
+        "description": "suppliers.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.suppliers, name=\"suppliers\"),\n    path(\"supplier_detail/<int:id>/\", views.supplier_detail, name=\"supplier_detail\"),\n    path(\"add_supplier/\", views.add_supplier, name=\"add_supplier\"),\n    path(\"edit_supplier/<int:id>/\", views.edit_supplier, name=\"edit_supplier\"),\n    path(\"delete_supplier/<int:id>/\", views.delete_supplier, name=\"delete_supplier\"),\n    path(\"supplier_assets/<int:id>/\", views.supplier_assets, name=\"supplier_assets\"),\n    path(\"supplier_history/<int:id>/\", views.supplier_history, name=\"supplier_history\"),\n]",
+        "detail": "suppliers.urls",
+        "documentation": {}
+    },
+    {
+        "label": "suppliers",
+        "kind": 2,
+        "importPath": "suppliers.views",
+        "description": "suppliers.views",
+        "peekOfCode": "def suppliers(request):\n    return render(request, \"suppliers/suppliers.html\")\ndef supplier_detail(request, id):\n    return render(request, \"suppliers/supplier_detail.html\")\ndef add_supplier(request):\n    return render(request, \"suppliers/add_supplier.html\")\ndef edit_supplier(request, id):\n    return render(request, \"suppliers/edit_supplier.html\")\ndef delete_supplier(request, id):\n    return render(request, \"suppliers/delete_supplier.html\")",
+        "detail": "suppliers.views",
+        "documentation": {}
+    },
+    {
+        "label": "supplier_detail",
+        "kind": 2,
+        "importPath": "suppliers.views",
+        "description": "suppliers.views",
+        "peekOfCode": "def supplier_detail(request, id):\n    return render(request, \"suppliers/supplier_detail.html\")\ndef add_supplier(request):\n    return render(request, \"suppliers/add_supplier.html\")\ndef edit_supplier(request, id):\n    return render(request, \"suppliers/edit_supplier.html\")\ndef delete_supplier(request, id):\n    return render(request, \"suppliers/delete_supplier.html\")\ndef supplier_assets(request, id):\n    return render(request, \"suppliers/supplier_assets.html\")",
+        "detail": "suppliers.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_supplier",
+        "kind": 2,
+        "importPath": "suppliers.views",
+        "description": "suppliers.views",
+        "peekOfCode": "def add_supplier(request):\n    return render(request, \"suppliers/add_supplier.html\")\ndef edit_supplier(request, id):\n    return render(request, \"suppliers/edit_supplier.html\")\ndef delete_supplier(request, id):\n    return render(request, \"suppliers/delete_supplier.html\")\ndef supplier_assets(request, id):\n    return render(request, \"suppliers/supplier_assets.html\")\ndef supplier_history(request, id):\n    return render(request, \"suppliers/supplier_history.html\")",
+        "detail": "suppliers.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_supplier",
+        "kind": 2,
+        "importPath": "suppliers.views",
+        "description": "suppliers.views",
+        "peekOfCode": "def edit_supplier(request, id):\n    return render(request, \"suppliers/edit_supplier.html\")\ndef delete_supplier(request, id):\n    return render(request, \"suppliers/delete_supplier.html\")\ndef supplier_assets(request, id):\n    return render(request, \"suppliers/supplier_assets.html\")\ndef supplier_history(request, id):\n    return render(request, \"suppliers/supplier_history.html\")",
+        "detail": "suppliers.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_supplier",
+        "kind": 2,
+        "importPath": "suppliers.views",
+        "description": "suppliers.views",
+        "peekOfCode": "def delete_supplier(request, id):\n    return render(request, \"suppliers/delete_supplier.html\")\ndef supplier_assets(request, id):\n    return render(request, \"suppliers/supplier_assets.html\")\ndef supplier_history(request, id):\n    return render(request, \"suppliers/supplier_history.html\")",
+        "detail": "suppliers.views",
+        "documentation": {}
+    },
+    {
+        "label": "supplier_assets",
+        "kind": 2,
+        "importPath": "suppliers.views",
+        "description": "suppliers.views",
+        "peekOfCode": "def supplier_assets(request, id):\n    return render(request, \"suppliers/supplier_assets.html\")\ndef supplier_history(request, id):\n    return render(request, \"suppliers/supplier_history.html\")",
+        "detail": "suppliers.views",
+        "documentation": {}
+    },
+    {
+        "label": "supplier_history",
+        "kind": 2,
+        "importPath": "suppliers.views",
+        "description": "suppliers.views",
+        "peekOfCode": "def supplier_history(request, id):\n    return render(request, \"suppliers/supplier_history.html\")",
+        "detail": "suppliers.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

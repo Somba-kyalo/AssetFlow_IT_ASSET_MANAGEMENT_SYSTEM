@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Employee Report | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/employee_report.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Employee Report</h2>
+
+            <p class="text-muted">
+                View employee asset allocation and assignment reports.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'reports' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back to Reports
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <h5 class="mb-0">Employee Asset Report</h5>
+
+            <form method="GET" class="d-flex">
+
+                <input type="search" name="search" class="form-control me-2" placeholder="Search employees...">
+
+                <button type="submit" class="btn btn-outline-primary">
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>#</th>
+
+                            <th>Employee ID</th>
+
+                            <th>Employee Name</th>
+
+                            <th>Department</th>
+
+                            <th>Assigned Assets</th>
+
+                            <th>Position</th>
+
+                            <th>Status</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for employee in employees %}
+
+                        <tr>
+
+                            <td>{{ forloop.counter }}</td>
+
+                            <td>{{ employee.employee_id }}</td>
+
+                            <td>{{ employee.first_name }} {{ employee.last_name }}</td>
+
+                            <td>{{ employee.department }}</td>
+
+                            <td>{{ employee.asset_count }}</td>
+
+                            <td>{{ employee.position }}</td>
+
+                            <td>{{ employee.status }}</td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="7" class="text-center text-muted">
+
+                                No employee records found.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

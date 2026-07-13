@@ -1,0 +1,52 @@
+.container-fluid{
+    padding:30px;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.card-header{
+    background:#ffffff;
+    border-bottom:1px solid #dee2e6;
+    padding:18px 25px;
+    font-weight:600;
+}
+
+.card-body{
+    padding:30px;
+}
+
+.form-label{
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.form-control,
+.form-select{
+    border-radius:8px;
+    padding:10px 15px;
+    border:1px solid #ced4da;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:none;
+    border-color:#dc3545;
+}
+
+.btn{
+    border-radius:8px;
+    padding:10px 20px;
+    font-weight:500;
+}
+
+.btn i{
+    margin-right:6px;
+}
+
+.text-end .btn{
+    margin-left:10px;
+}

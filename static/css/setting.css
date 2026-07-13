@@ -1,0 +1,25 @@
+.container-fluid{
+    padding:30px;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card-body{
+    padding:30px;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.card-body i{
+    margin-bottom:15px;
+}

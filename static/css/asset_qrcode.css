@@ -1,0 +1,37 @@
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    background:#ffffff;
+    font-weight:600;
+}
+
+.qr-card{
+    transition:.3s;
+}
+
+.qr-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.qr-image{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+}
+
+.form-control,
+.form-select{
+    border-radius:8px;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.bi-qr-code{
+    color:#6c757d;
+}

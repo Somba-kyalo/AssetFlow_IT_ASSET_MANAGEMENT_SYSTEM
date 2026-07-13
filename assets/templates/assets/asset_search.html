@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Asset Search | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/asset_search.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Asset Search</h2>
+
+            <p class="text-muted">
+                Search and filter assets using multiple criteria.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'assets' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back to Assets
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Search Filters</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <form method="GET">
+
+                <div class="row">
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Keyword</label>
+
+                        <input type="text" name="keyword" class="form-control" placeholder="Asset Name, Tag or Serial Number">
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Category</label>
+
+                        <select name="category" class="form-select">
+
+                            <option value="">All Categories</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Department</label>
+
+                        <select name="department" class="form-select">
+
+                            <option value="">All Departments</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Supplier</label>
+
+                        <select name="supplier" class="form-select">
+
+                            <option value="">All Suppliers</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Status</label>
+
+                        <select name="status" class="form-select">
+
+                            <option value="">All Status</option>
+                            <option>Available</option>
+                            <option>Assigned</option>
+                            <option>Maintenance</option>
+                            <option>Retired</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+
+                        <label class="form-label">Purchase Date</label>
+
+                        <input type="date" name="purchase_date" class="form-control">
+
+                    </div>
+
+                </div>
+
+                <div class="text-end">
+
+                    <button type="reset" class="btn btn-warning">
+
+                        <i class="bi bi-arrow-clockwise"></i>
+
+                        Reset
+
+                    </button>
+
+                    <button type="submit" class="btn btn-primary">
+
+                        <i class="bi bi-search"></i>
+
+                        Search
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Search Results</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover align-middle">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>#</th>
+                            <th>Asset Tag</th>
+                            <th>Asset Name</th>
+                            <th>Category</th>
+                            <th>Department</th>
+                            <th>Status</th>
+                            <th>Assigned To</th>
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td colspan="8" class="text-center text-muted py-5">
+
+                                <i class="bi bi-search fs-1 d-block mb-3"></i>
+
+                                No matching assets found.
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

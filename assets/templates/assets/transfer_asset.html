@@ -1,0 +1,206 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Transfer Asset | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/transfer_asset.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Transfer Asset</h2>
+
+            <p class="text-muted">
+                Transfer an IT asset from one employee or department to another.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'asset_assignment' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">
+
+                Transfer Details
+
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Asset</label>
+
+                        <select name="asset" class="form-select" required>
+
+                            <option value="">Select Asset</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Transfer Date</label>
+
+                        <input type="date" name="transfer_date" class="form-control" required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Current Employee</label>
+
+                        <select name="current_employee" class="form-select" required>
+
+                            <option value="">Select Current Employee</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">New Employee</label>
+
+                        <select name="new_employee" class="form-select" required>
+
+                            <option value="">Select New Employee</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Current Department</label>
+
+                        <select name="current_department" class="form-select">
+
+                            <option value="">Select Current Department</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">New Department</label>
+
+                        <select name="new_department" class="form-select">
+
+                            <option value="">Select New Department</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Transferred By</label>
+
+                        <input type="text" name="transferred_by" class="form-control" value="{{ request.user.get_full_name }}" readonly>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">Reason for Transfer</label>
+
+                        <select name="reason" class="form-select">
+
+                            <option>Department Change</option>
+                            <option>Employee Transfer</option>
+                            <option>Replacement</option>
+                            <option>Temporary Assignment</option>
+                            <option>Other</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+
+                        <label class="form-label">Remarks</label>
+
+                        <textarea name="remarks" rows="4" class="form-control" placeholder="Enter transfer remarks..."></textarea>
+
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+
+                        <div class="form-check">
+
+                            <input class="form-check-input" type="checkbox" id="confirm_transfer" required>
+
+                            <label class="form-check-label" for="confirm_transfer">
+
+                                I confirm that this asset transfer has been approved.
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="text-end">
+
+                    <button type="reset" class="btn btn-warning">
+
+                        <i class="bi bi-arrow-clockwise"></i>
+
+                        Reset
+
+                    </button>
+
+                    <button type="submit" class="btn btn-primary">
+
+                        <i class="bi bi-arrow-left-right"></i>
+
+                        Transfer Asset
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

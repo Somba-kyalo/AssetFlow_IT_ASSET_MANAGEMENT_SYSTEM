@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Roles | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/roles.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">User Roles</h2>
+
+            <p class="text-muted">
+                Manage roles available in the AssetFlow system.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <h5 class="mb-0">Role List</h5>
+
+            <form method="GET" class="d-flex">
+
+                <input type="search"
+                       name="search"
+                       class="form-control me-2"
+                       placeholder="Search roles...">
+
+                <button type="submit" class="btn btn-outline-primary">
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>#</th>
+
+                            <th>Role Name</th>
+
+                            <th>Description</th>
+
+                            <th>Number of Users</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for role in roles %}
+
+                        <tr>
+
+                            <td>{{ forloop.counter }}</td>
+
+                            <td>{{ role.name }}</td>
+
+                            <td>{{ role.description }}</td>
+
+                            <td>{{ role.user_count }}</td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="4" class="text-center text-muted">
+
+                                No roles available.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,156 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Completed Repairs | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/completed_repairs.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Completed Repairs</h2>
+
+            <p class="text-muted">
+                View all maintenance requests that have been successfully completed.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'maintenance' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <h5 class="mb-0">Completed Repairs</h5>
+
+            <form method="GET" class="d-flex">
+
+                <input type="search" name="search" class="form-control me-2" placeholder="Search repairs...">
+
+                <button type="submit" class="btn btn-outline-primary">
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>#</th>
+
+                            <th>Ticket No.</th>
+
+                            <th>Asset</th>
+
+                            <th>Technician</th>
+
+                            <th>Completion Date</th>
+
+                            <th>Cost</th>
+
+                            <th>Status</th>
+
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for repair in completed_repairs %}
+
+                        <tr>
+
+                            <td>{{ forloop.counter }}</td>
+
+                            <td>{{ repair.ticket_number }}</td>
+
+                            <td>{{ repair.asset }}</td>
+
+                            <td>{{ repair.technician }}</td>
+
+                            <td>{{ repair.completed_date }}</td>
+
+                            <td>Ksh {{ repair.cost }}</td>
+
+                            <td>
+
+                                <span class="badge bg-success">
+
+                                    Completed
+
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                <a href="{% url 'maintenance_detail' repair.id %}" class="btn btn-sm btn-info">
+
+                                    <i class="bi bi-eye"></i>
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="8" class="text-center text-muted">
+
+                                No completed repairs available.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

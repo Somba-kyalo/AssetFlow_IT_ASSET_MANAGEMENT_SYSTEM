@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Maintenance Report | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/maintenance_report.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Maintenance Report</h2>
+
+            <p class="text-muted">
+                View all maintenance activities, repairs and service records.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'reports' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back to Reports
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <h5 class="mb-0">Maintenance Report</h5>
+
+            <form method="GET" class="d-flex">
+
+                <input type="search"
+                       name="search"
+                       class="form-control me-2"
+                       placeholder="Search maintenance records...">
+
+                <button type="submit" class="btn btn-outline-primary">
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>#</th>
+
+                            <th>Asset</th>
+
+                            <th>Issue</th>
+
+                            <th>Technician</th>
+
+                            <th>Maintenance Date</th>
+
+                            <th>Status</th>
+
+                            <th>Cost</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for maintenance in maintenances %}
+
+                        <tr>
+
+                            <td>{{ forloop.counter }}</td>
+
+                            <td>{{ maintenance.asset }}</td>
+
+                            <td>{{ maintenance.issue }}</td>
+
+                            <td>{{ maintenance.technician }}</td>
+
+                            <td>{{ maintenance.maintenance_date }}</td>
+
+                            <td>{{ maintenance.status }}</td>
+
+                            <td>{{ maintenance.cost }}</td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="7" class="text-center text-muted">
+
+                                No maintenance records found.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

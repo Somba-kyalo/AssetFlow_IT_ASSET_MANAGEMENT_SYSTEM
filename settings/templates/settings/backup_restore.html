@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Backup & Restore | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/backup_restore.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Backup & Restore</h2>
+
+            <p class="text-muted">
+                Create system backups and restore previously saved backups.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm h-100">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">
+
+                        <i class="bi bi-cloud-arrow-up-fill"></i>
+
+                        Create Backup
+
+                    </h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <p class="text-muted">
+
+                        Generate a backup of the system database and important files.
+
+                    </p>
+
+                    <form method="POST">
+
+                        {% csrf_token %}
+
+                        <button type="submit" class="btn btn-primary">
+
+                            <i class="bi bi-download"></i>
+
+                            Create Backup
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm h-100">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">
+
+                        <i class="bi bi-cloud-arrow-down-fill"></i>
+
+                        Restore Backup
+
+                    </h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <p class="text-muted">
+
+                        Upload a backup file to restore the system.
+
+                    </p>
+
+                    <form method="POST" enctype="multipart/form-data">
+
+                        {% csrf_token %}
+
+                        <div class="mb-3">
+
+                            <input type="file"
+                                   name="backup_file"
+                                   class="form-control">
+
+                        </div>
+
+                        <button type="submit" class="btn btn-success">
+
+                            <i class="bi bi-upload"></i>
+
+                            Restore Backup
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

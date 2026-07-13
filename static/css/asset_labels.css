@@ -1,0 +1,39 @@
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    background:#ffffff;
+    font-weight:600;
+}
+
+.label-card{
+    border:1px dashed #ced4da;
+    transition:.3s;
+}
+
+.label-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.qr-image{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    margin:15px auto;
+}
+
+.form-control,
+.form-select{
+    border-radius:8px;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.bi-upc-scan{
+    color:#6c757d;
+}

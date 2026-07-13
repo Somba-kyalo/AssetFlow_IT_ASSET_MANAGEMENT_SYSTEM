@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Department Details | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/department_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row mb-4">
+
+        <div class="col-md-8">
+
+            <h2 class="fw-bold">Department Details</h2>
+
+            <p class="text-muted">
+                View complete information about the selected department.
+            </p>
+
+        </div>
+
+        <div class="col-md-4 text-end">
+
+            <a href="{% url 'departments' %}" class="btn btn-secondary">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Department Information</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Department Name</strong>
+
+                    <p>{{ department.name }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Department Code</strong>
+
+                    <p>{{ department.code }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Department Manager</strong>
+
+                    <p>{{ department.manager }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Email Address</strong>
+
+                    <p>{{ department.email }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Phone Number</strong>
+
+                    <p>{{ department.phone }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Office Location</strong>
+
+                    <p>{{ department.location }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Total Employees</strong>
+
+                    <p>{{ department.employee_count }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Total Assets</strong>
+
+                    <p>{{ department.asset_count }}</p>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <strong>Status</strong>
+
+                    <p>
+
+                        <span class="badge bg-success">
+
+                            {{ department.status }}
+
+                        </span>
+
+                    </p>
+
+                </div>
+
+                <div class="col-md-12 mb-3">
+
+                    <strong>Description</strong>
+
+                    <p>{{ department.description }}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-sm mt-4">
+
+        <div class="card-header">
+
+            <h5 class="mb-0">Quick Actions</h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <a href="{% url 'edit_department' department.id %}" class="btn btn-warning">
+
+                <i class="bi bi-pencil-square"></i>
+
+                Edit Department
+
+            </a>
+
+            <a href="{% url 'department_assets' department.id %}" class="btn btn-primary">
+
+                <i class="bi bi-laptop"></i>
+
+                View Assets
+
+            </a>
+
+            <a href="{% url 'delete_department' department.id %}" class="btn btn-danger">
+
+                <i class="bi bi-trash"></i>
+
+                Delete Department
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

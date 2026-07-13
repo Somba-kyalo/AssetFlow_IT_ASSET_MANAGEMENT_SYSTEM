@@ -1,0 +1,59 @@
+.container-fluid{
+    padding:30px;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.card-header{
+    background:#ffffff;
+    border-bottom:1px solid #dee2e6;
+    padding:18px 25px;
+    font-weight:600;
+}
+
+.card-body{
+    padding:25px;
+}
+
+.table{
+    margin-bottom:0;
+}
+
+.table th{
+    text-align:center;
+    vertical-align:middle;
+    font-weight:600;
+}
+
+.table td{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.form-control{
+    border-radius:8px;
+    padding:10px 15px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#dc3545;
+}
+
+.btn{
+    border-radius:8px;
+    padding:8px 18px;
+}
+
+.badge{
+    padding:8px 12px;
+    font-size:.85rem;
+}
+
+.table-responsive{
+    overflow-x:auto;
+}

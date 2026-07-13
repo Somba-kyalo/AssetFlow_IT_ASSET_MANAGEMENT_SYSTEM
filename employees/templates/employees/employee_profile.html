@@ -1,0 +1,198 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Employee Profile | AssetFlow{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/employee_profile.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col-lg-4">
+
+            <div class="card shadow-sm text-center">
+
+                <div class="card-body">
+
+                    <img src="{% static 'images/default-user.png' %}" alt="Employee" class="rounded-circle profile-image mb-3">
+
+                    <h4>{{ employee.full_name }}</h4>
+
+                    <p class="text-muted">{{ employee.position }}</p>
+
+                    <span class="badge bg-success">{{ employee.status }}</span>
+
+                    <hr>
+
+                    <p><strong>Employee ID</strong></p>
+
+                    <p>{{ employee.employee_id }}</p>
+
+                    <p><strong>Department</strong></p>
+
+                    <p>{{ employee.department }}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-8">
+
+            <div class="card shadow-sm mb-4">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Personal Information</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Full Name</strong>
+
+                            <p>{{ employee.full_name }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Email</strong>
+
+                            <p>{{ employee.email }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Phone Number</strong>
+
+                            <p>{{ employee.phone }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Employment Date</strong>
+
+                            <p>{{ employee.employment_date }}</p>
+
+                        </div>
+
+                        <div class="col-md-12 mb-3">
+
+                            <strong>Address</strong>
+
+                            <p>{{ employee.address }}</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card shadow-sm">
+
+                <div class="card-header">
+
+                    <h5 class="mb-0">Employment Information</h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Department</strong>
+
+                            <p>{{ employee.department }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Position</strong>
+
+                            <p>{{ employee.position }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Assigned Assets</strong>
+
+                            <p>{{ employee.asset_count }}</p>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <strong>Status</strong>
+
+                            <p>
+
+                                <span class="badge bg-success">
+
+                                    {{ employee.status }}
+
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="mt-4">
+
+                <a href="{% url 'edit_employee' employee.id %}" class="btn btn-warning">
+
+                    <i class="bi bi-pencil-square"></i>
+
+                    Edit Profile
+
+                </a>
+
+                <a href="{% url 'employee_assets' employee.id %}" class="btn btn-primary">
+
+                    <i class="bi bi-laptop"></i>
+
+                    View Assets
+
+                </a>
+
+                <a href="{% url 'employees' %}" class="btn btn-secondary">
+
+                    <i class="bi bi-arrow-left"></i>
+
+                    Back
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
